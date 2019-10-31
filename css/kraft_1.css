@@ -1,0 +1,779 @@
+/* Main css */
+
+html {
+	box-sizing: border-box;
+	width: 100%;
+	/*height: 100%;*/
+}
+
+/* Fonts */
+
+/*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');*/
+
+@font-face {
+	font-family: "Corbel Regular";
+	src: url(../font/CORBEL.TTF);
+}
+
+@font-face {
+	font-family: "Roboto Slab";
+	src: url(../font/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Roboto Slab Light";
+	src: url(../font/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+	font-family: "Roboto Slab Thin";
+	src: url(../font/RobotoSlab-Thin.ttf);
+}
+
+/* Hyper-Link styling */
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+/* Body */
+
+body {
+	/*height: 100%;*/
+	margin: 0 auto;
+	width: 100%;
+	/*max-width: 1200px;*/
+	font-family: "Corbel Regular", sans-serif;
+	background-color: white;
+	/*background-image: url(../img/knjige_pozadina.jpg);
+	background-size: cover; 
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-origin: content-box;*/
+}
+
+/* Header */
+
+header {
+	/*position: sticky;*/
+	position: fixed;
+
+	top: 0;
+	/*width: 100%;*/
+	width: 100%;
+	/*max-width: 1200px;*/
+
+}
+
+/*header::after {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/knjige_pozadina.jpg);
+	background-size: cover; 
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}*/
+
+.top {
+	/*width: 100%;*/
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	/*flex-column: auto 500px;*/
+	justify-content: space-between;
+	/*flex-shrink: 1;*/
+	/*flex-wrap: wrap;*/
+	
+}
+
+.logo {
+	display: block;
+	width: 140px;
+	height: 80px;
+	margin: 0;
+	margin-top: 1rem;
+	background-image: url(../img/logo_1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.top > span {
+	/*height: 100%;*/
+	/*flex-basis: 50%;*/
+}
+
+.top > span:nth-child(2) {
+	display: inline-flex;
+	justify-content: flex-end;
+	
+	/*background-color: red;*/
+}
+
+/*.top > span:first-child {
+	flex-grow: 2;
+}*/
+
+/* Navigation manu */
+
+nav {
+	/*display: grid;
+	grid-auto-flow: column;
+	align-content: center;*/
+	display: inline-flex;
+	align-content: center;
+	margin: 1em;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	/*margin-top: 1rem;
+	margin-bottom: 1rem;*/
+
+}
+
+nav li {
+	text-decoration: none;
+	list-style: none;
+	font-family: "Corbel Regular", sans-serif;
+	font-size: 30px;
+	line-height: 80px;
+	display: inline-block;
+	padding: 0 20px;
+
+}
+
+nav li a {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+nav li:hover {
+	background-color: rgb(244, 247, 246);
+}
+
+/*#meni {
+	display: none;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: "Corbel Regular", sans-serif;
+	font-size: 30px;
+	line-height: 80px;
+}*/
+
+#menu-toggle-container {
+	display: none;
+}
+
+/*#menu-toggle {
+	display: none;
+
+}*/
+
+/* CTA */
+
+/*.background_image {
+	position: absolute;
+	z-index: -4;
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/knjige_pozadina.jpg);
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}*/
+
+.background_image {
+	/*position: absolute;
+	z-index: -4;*/
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-top: 200px;
+	/*width: 100vw;
+	height: 100vh;*/
+	background-image: url(../img/knjige_pozadina.jpg);
+	background-size: cover; 
+	background-position: center;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
+
+/*.subheader {
+	display: grid;
+	grid-auto-flow: column;
+	align-content: center;
+	width: 100%;
+	height: 800px;
+	background-color: rgba(255,255,255,0.0);
+}*/
+
+.subheader {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	margin: 0;
+	/*flex-grow: 1;*/
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(255,255,255,0.0);
+}
+
+.subheader > h1 {
+	font-size: 80px;
+	font-family: "Roboto Slab Light";
+	margin-top: 0;
+	line-height: 80px;
+	max-width: 300px;
+}
+
+.srednji_tekst {
+	font-size: 28px;
+	font-family: "Roboto Slab Thin";
+	max-width: 600px;
+	margin-top: 0;
+	/*margin-left: 8.3%;
+	align-self: center;*/
+}
+
+.subheader > span {
+	font-size: 28px;
+	font-family: "Roboto Slab Thin";
+}
+
+.subheader > span > p {
+	margin: 0;
+	/*text-decoration: underline;*/
+}
+
+.subheader > span > a {
+	text-decoration: underline;
+}
+
+/* Main content */
+
+main {
+	background-color: #fff;
+	font-size: 1.5rem;
+
+}
+
+main article {
+	margin: 5%;
+}
+
+
+/* GRID */
+
+.grid {
+	/*display: grid;*/
+	/*grid-template-columns: 50% 50%;*/
+	/*grid-auto-flow: column;*/
+	justify-content: center;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 1fr;
+}
+
+/* FLEX */
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Upis */
+
+.upis {
+
+}
+
+.upis_naslov {
+	display: grid;
+	justify-content: center;
+	flex-basis: 50%;
+}
+
+.Naslovi {
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family: "Roboto Slab";
+}
+
+.upis_tekst {
+	display: grid;
+	justify-content: center;
+	flex-basis: 50%;
+}
+
+.upis_tekst > article > img {
+	display: block;
+	margin: 2em auto;
+}
+
+/* Jezici */
+
+.jezici_naslov {
+	display: grid;
+	justify-content: center;
+	background-color: rgb(244, 247, 246);
+}
+
+.jezici {
+	
+}
+
+.lista_jezika {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 1fr;
+	list-style: none;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.flags {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	margin: 1em auto;
+}
+
+.flags > a {
+	display: block;
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+}
+
+.jezik_naziv {
+	/*margin-top: 3rem;*/
+	/*display: block;
+	height: 100%;
+	width: 100%;*/
+	color: white;
+	line-height: 150px;
+	background-color: rgba(84,152,171,0.5);
+	border-radius: 50%;
+	display: none;
+}
+
+.flags > a:hover .jezik_naziv {
+	display: block;
+}
+
+/*.lista_jezika a {
+	vertical-align: middle;
+}
+*/
+
+/*.flags {
+	display: block;
+	width: 100%
+	height: 100%;
+	vertical-align: middle;
+}
+*/
+
+.flags p {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+#nemacki {
+	background: url(../img/germany.png);
+}
+
+#engleski {
+	background: url(../img/uk.png);
+}
+
+#francuski {
+	background: url(../img/france.png);
+}
+
+#italijanski {
+	background: url(../img/italy.png);
+}
+
+#spanski {
+	background: url(../img/spain.png);
+}
+
+#ruski {
+	background: url(../img/russia.png);
+}
+
+#slovenacki {
+	background: url(../img/slovenia.png);
+}
+
+#norveski {
+	background: url(../img/norway.png);
+}
+
+/* O Školi */
+
+.skola {
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 1fr;
+}
+
+.skola > article {
+	margin: 1.3rem;
+}
+
+.skola > article:first-child {
+	background: linear-gradient(to bottom, rgba(84,152,171,1) 60%, rgba(84,152,171,0)), url(../img/stock-photo.png);
+	
+	background-size: cover;
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+	color: white;
+}
+
+.skola > article:nth-child(2) {
+	background-color: #f7f9f8;
+}
+
+.skola > article:nth-child(3) {
+	background-color: #dae8eb;
+}
+
+.skola > article:nth-child(4) {
+	background-color: #99a099;
+}
+
+.skola > article > img {
+	display: block;
+	margin: 5rem auto 1em auto;
+	width: 150px;
+	
+}
+
+.skola > article > p {
+	font-size: 1em;
+	margin: 0 5rem 2rem 5rem;
+	/*margin-left: 5rem;
+	margin-right: 5rem;*/
+}
+
+.skola article h2 {
+	display: inline-block;
+	margin-left: 2rem;
+	font-family: "Roboto Slab";
+}
+
+/*.skola article {
+	width: 600px;
+	height: 500px;
+}*/
+
+/* Kursevi */
+
+.kursevi {
+	display: grid;
+	grid-template-columns: 20% 40% 40%;
+
+}
+
+.kursevi > span {
+	background-color: #f5f7f6;
+}
+
+/*  **FOOTER**  */
+
+.footer {
+	background-color: #fff;
+}
+
+.kontak {
+
+	
+}
+
+/*.kontakt_info {
+	text-align: center;
+	background-color: #f5f7f6;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-basis: 50%, 50%;
+	flex-shrink: 1;
+}*/
+
+.kontakt_info {
+	text-align: center;
+	background-color: #f5f7f6;
+	display: grid;
+	
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	
+	grid-auto-rows: 1fr;
+	
+	justify-content: center;
+	justify-items: end;
+	
+}
+
+.kontakt > h2 {
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	/*height: 100%;*/
+	margin: 0;
+	padding: 1em 0;
+	background-color: #5498ab;
+	font-family: "Roboto Slab";
+
+}
+
+.kontakt_info > address {
+	display: inline-flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.kontakt_info > address > img {
+	display: block;
+	margin: .5em auto;
+}
+
+.kontakt_info p {
+	font-size: 1em;
+	margin: 0;
+}
+
+.kontakt_info  address h3 {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: .5rem;
+}
+
+address {
+	display: inline-block;
+	max-width: 600px;
+	font-style: inherit;
+}
+
+.gmap {
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	/*overflow: hidden;
+	background: none !important;
+	height: 500px;
+	width: 600px;*/
+
+	/*background-image: url(../img/mapa_velika.png);
+	background-size: cover; 
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	background-origin: content-box;*/
+}
+
+.gmap > iframe {
+	/*height: 100%;*/ 
+	width: 100%;
+}
+
+/*.gmap > img {
+	height: 100%;
+	max-width: auto;
+}
+*/
+/*.social_links {
+	max-width: 600px;
+}
+*/
+
+/* Soc Links */
+
+.social_links {
+	width: 100%;
+	display: inline-flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.social_links a {
+	
+	margin: 2em 1rem;
+}
+
+.footer {
+	background-color: white;
+	text-align: right;
+
+}
+
+.footer > small {
+	font-size: 1rem;
+	margin: .5em;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+	
+	#menu {
+		display: none;
+	}
+
+	#menu-toggle-container {
+		display: block;
+	}
+
+	/*nav {
+		display: none;
+	}*/
+
+	/* #meni {
+		display: inline-block;
+		width: 100%;
+		/*overflow: visible;*/
+	/*} */ 
+
+	label {
+		cursor: pointer;
+	}
+
+	/*#menu-toggle {
+		display: inline-block;
+		right: 0;
+	}
+	*/
+
+	/*#menu {
+		display: none;
+	}*/
+	
+	input[type=checkbox]:checked #menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-content: space-around;
+		align-items: center;
+		/*position: absolute;*/
+		top: 100px;
+		background-color: white;
+		/*width: 100vw;
+		height: 100vh;*/
+		width: 100px;
+		height: 100px;
+	}
+
+	/*#menu-toggle:checked #menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-content: space-around;
+		align-items: center;
+		position: absolute;
+		top: 100px;
+		background-color: white;
+		width: 100vw;
+		height: 100vh;
+	}*/
+
+	/*#menu-toggle:checked nav {
+		display: block;
+		position: absolute;
+		background-color: white;
+		width: 100vw;
+		height: 100vh;
+	}*/
+
+	/*.flex {
+		display: flex;
+		flex-direction: column;
+	}*/
+
+	/*.grid {
+		display: grid;
+		grid-template-rows: auto 100%;
+		grid-auto-flow: row;
+	}*/
+
+	.grid {
+		display: block;
+	}
+
+	.skola {
+		display: block;
+	}
+
+	.kursevi {
+		display: block;
+	}
+
+	.kontakt_info {
+		display: block;
+	}
+}
+
+/*@media only screen and (width: 800px) {
+	.flex {
+		display: flex;
+		flex-direction: column;
+	}
+}*/
+
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {...}
+*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}
+*/
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}
+*/
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...}
+*/
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...} 
+*/

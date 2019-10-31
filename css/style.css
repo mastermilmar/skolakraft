@@ -1,0 +1,181 @@
+html {
+	box-sizing: border-box;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Roboto Slab", sans-serif;
+}
+
+nav {
+	display: inline-block;
+	
+}
+
+ul {
+	padding: 0px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+/*  Main elements  */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header,
+.footer {
+	background: #fff;
+	color: #000;
+}
+
+.header {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 120px;
+	
+}
+
+.logo {
+	margin-left: 0;
+	margin-right: auto;
+	width: 143px;
+	height: 81px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.hero {
+	min-height: 400px;
+	height: 100%;
+	background-image: url(../img/KRAFT-MAIN_Hero-img.png);
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.upis {
+	
+}
+
+.zaglavlje_2 {
+	width: 100%;
+	background: rgb(83,152,171);
+	float: left;
+}
+
+.zaglavlje_2 h2 {
+	
+	margin-top: 50%;
+	margin-bottom: 50%;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+	display: block;
+}
+
+.upis > section {
+	width: 100%;
+	
+}
+
+.jezici {
+	width: 100%;
+}
+
+.lista_jezika {
+	max-width: 600px;
+}
+
+.lista_jezika a {
+	text-align: center;
+	align-items: center;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin: 20px 10%;
+}
+
+#nemacki {
+	background: url(../img/germany.png);
+}
+
+#engleski {
+	background: url(../img/uk.png);
+}
+
+#francuski {
+	background: url(../img/france.png);
+}
+
+#italijanski {
+	background: url(../img/italy.png);
+}
+
+#spanski {
+	background: url(../img/spain.png);
+}
+
+#ruski {
+	background: url(../img/russia.png);
+}
+
+#slovenacki {
+	background: url(../img/slovenia.png);
+}
+
+#norveski {
+	background: url(../img/norway.png);
+}
+
+/*  Footer  */
+
+.footer {
+	height: 200px;
+}
+
+.socnet {
+	position: relative;
+	display: inline-block;
+	margin: auto;
+	padding: auto;
+}
+
+#copyright {
+	float: right;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+	.flex {
+		flex-direction: column;
+	}
+}

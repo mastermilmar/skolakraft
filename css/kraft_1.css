@@ -658,13 +658,35 @@ address {
 
 @media only screen and (max-width: 768px) {
 	
+	.top {
+		display: flex;
+		flex-direction: column;
+	}
+
 	#menu {
-		display: none;
+		display: inline-flex;
+		flex-flow: column;
+		width: 100%;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
 	}
 
 	#menu-toggle-container {
 		display: block;
 	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+		
+	}
+
+	/*nav > span:nth-child(2) {
+		justify-content: center;
+	}*/
 
 	/*nav {
 		display: none;
@@ -676,6 +698,12 @@ address {
 		/*overflow: visible;*/
 	/*} */ 
 
+	/*#menu {
+		display: none;
+	}*/
+
+	/* menu label */
+
 	label {
 		cursor: pointer;
 	}
@@ -685,10 +713,6 @@ address {
 		right: 0;
 	}
 	*/
-
-	/*#menu {
-		display: none;
-	}*/
 	
 	input[type=checkbox]:checked #menu {
 		display: flex;

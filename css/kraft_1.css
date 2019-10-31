@@ -246,8 +246,9 @@ nav li:hover {
 .srednji_tekst {
 	font-size: 28px;
 	font-family: "Roboto Slab Thin";
-	max-width: 600px;
+	max-width: 480px;
 	margin-top: 0;
+
 	/*margin-left: 8.3%;
 	align-self: center;*/
 }
@@ -341,6 +342,7 @@ main article {
 .jezici_naslov {
 	display: grid;
 	justify-content: center;
+	margin: 1.3rem;
 	background-color: rgb(244, 247, 246);
 }
 
@@ -516,6 +518,19 @@ main article {
 
 .kursevi > span {
 	background-color: #f5f7f6;
+	margin: 1.3rem;
+	vertical-align: middle;
+	justify-content: center;
+	align-content: center;
+	
+	
+}
+
+.kursevi > span > h2 {
+	background-color: #f5f7f6;
+	margin: 1.3rem;
+	
+	align-self: center;
 }
 
 /*  **FOOTER**  */
@@ -657,7 +672,7 @@ address {
 /* responsive */
 
 @media only screen and (max-width: 768px) {
-	
+
 	.top {
 		display: flex;
 		flex-direction: column;

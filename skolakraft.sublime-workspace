@@ -1,0 +1,790 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"inline",
+				"inline-flex\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"fon",
+				"font-style\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"grid-",
+				"grid-auto-flow\tproperty"
+			],
+			[
+				"borde",
+				"border-radius\tproperty"
+			],
+			[
+				"hi",
+				"line-height\tproperty"
+			],
+			[
+				"fle",
+				"flex-flow\tproperty"
+			],
+			[
+				"fl",
+				"flex-wrap\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"ul",
+				"ul\tTag"
+			],
+			[
+				"mag",
+				"margin-bottom\tproperty"
+			],
+			[
+				"magin",
+				"margin-top\tproperty"
+			],
+			[
+				"g",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"ifra",
+				"iframe\tTag"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"san",
+				"span\tTag"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"span",
+				"span\tTag"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"rgb",
+				"rgba"
+			],
+			[
+				"gri",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"alig",
+				"vertical-align\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"s",
+				"space-around\tjustify-content"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"alli",
+				"align-self\tproperty"
+			],
+			[
+				"section",
+				"section\tTag"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"grid",
+				"grid-column\tproperty"
+			],
+			[
+				"grid-co",
+				"grid-column-start\tproperty"
+			],
+			[
+				"con",
+				"align-content\tproperty"
+			],
+			[
+				"li",
+				"list-style\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"grid-a",
+				"grid-auto-rows\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"background-",
+				"background-origin\tproperty"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"inli",
+				"inline-grid\tdisplay"
+			],
+			[
+				"a",
+				"a\t<a href=\"mailto:\"> "
+			],
+			[
+				"fo",
+				"footer\t<footer>"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"main",
+				"main\tTag"
+			],
+			[
+				"heade",
+				"header\tTag"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"bakg",
+				"background-image\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"i",
+				"img"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"ima",
+				"background-image\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"as",
+				"aside\tTag"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"he",
+				"header\t<header>"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"ar",
+				"article\tTag"
+			],
+			[
+				"de",
+				"details\t<details>"
+			],
+			[
+				"id",
+				"id\tAttr"
+			],
+			[
+				"ti",
+				"title\tAttr"
+			],
+			[
+				"src",
+				"src\tAttr"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"lo",
+				"localA"
+			],
+			[
+				"pth",
+				"pthread_mutex_lock"
+			],
+			[
+				"t",
+				"two"
+			],
+			[
+				"threa",
+				"threadFunc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "web_dev-master/index.htm",
+			"settings":
+			{
+				"buffer_size": 6744,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "web_dev-master/css/style.css",
+			"settings":
+			{
+				"buffer_size": 4454,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kraft_1.html",
+			"settings":
+			{
+				"buffer_size": 8055,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/kraft_1.css",
+			"settings":
+			{
+				"buffer_size": 12207,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n\t/* kraft_1.css | http://localhost:8080/css/kraft_1.css */\n\n\tnav {\n\t/* display: flex; */\n\t/* flex-direction: column; */\n\tflex-direction: ;\n\tposition: absolute;\n\tbackground-color: white;\n\twidth: 100vw;\n\theight: 100vh;\n\t}\n\n\t/* Element | http://localhost:8080/kraft_1.html */\n\n\t#menu {\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: space-evenly;\n\talign-content: space-around;\n\talign-items: center;\n\twidth: 100%;\n\t}\n\n\n\n/* kraft_1.css | http://localhost:8080/css/kraft_1.css */\n\n.lista_jezika {\n  /* align-content: center; */\n  align-content: space-evenly;\n  align-content: space-evenly;\n}\n\n.flags {\n  margin: 1em auto;\n}\n\ngrid-template-columns: 12px 12px 12px;\ngrid-template-rows: 12px 12px 12px;\n\n\n/* kraft_1.css | http://localhost:8080/css/kraft_1.css */\n\n.kontakt_info > address {\n  justify-content: space-around;\n}\n\n/* Element | http://localhost:8080/kraft_1.html */\n\n.kontakt_info > address:nth-child(1) > p:nth-child(3) {\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n\n/* Element | http://localhost:8080/kraft_1.html */\n\n.kontakt_info > address:nth-child(1) > h3:nth-child(1) {\n  margin-bottom: 0px;\n  margin-top: 3em;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.kontakt_info > address {\n  justify-content: center;\n}\n\n/* --- */\n\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(1) {\n  height: 640px;\n  margin-right: 20px;\n  margin-left: 20px;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(3) > img:nth-child(1) {\n  width: 150px;\n  margin-top: 5rem;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(3) > p:nth-child(2) {\n  margin-left: 5rem;\n  margin-right: 5rem;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(1) > h2:nth-child(1) {\n  /* margin-bottom: 0px; */\n  margin-bottom: .1em;\n  height: 64px;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.srednji_tekst {\n  /* max-width: 400px; */\n  max-width: 480px;\n}\n\n\n/* */\n\n\nbackground: #1c92d2;  /* fallback for old browsers */\nbackground: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */\nbackground: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n\nbackground-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);\nbackground-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);\nbackground-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);\n\nbackground-image: linear-gradient( 135deg, #FFDB01 10%, #0E197D 100%);\n\n#53a495\n#ff4422\n\n/* Toggle between adding and removing the \"responsive\" class to topnav when the user clicks on the icon */\nfunction myFunction() {\n  var x = document.getElementById(\"myTopnav\");\n  if (x.className === \"topnav\") {\n\tx.className += \" responsive\";\n  } else {\n\tx.className = \"topnav\";\n  }\n}\n\n",
+			"settings":
+			{
+				"buffer_size": 3011,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/webdev/skolakraft"
+	],
+	"file_history":
+	[
+		"/D/webdev/template_blue.css",
+		"/D/webdev/test/test2.css",
+		"/D/github/f9b/README.md",
+		"/D/webdev/skolakraft/web_dev-master/kraft_1.html",
+		"/D/webdev/skolakraft/web_dev-master/css/kraft_1.css",
+		"/D/webdev/skolakraft/web_dev-master/index-Ver_1.htm",
+		"/D/webdev/skolakraft/css/style.css",
+		"/D/webdev/skolakraft/index.htm",
+		"/D/webdev/test/test2.html",
+		"/D/webdev/web_links",
+		"/D/webdev/skolakraft/web_links",
+		"/D/webdev/aox/style.css",
+		"/D/webdev/aox/index.html",
+		"/D/webdev/gmap_snippets.html",
+		"/C/Users/misabrzi/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/misabrzi/AppData/Roaming/Sublime Text 3/Packages/CSSLint/Default (Windows).sublime-keymap",
+		"/C/Users/misabrzi/AppData/Roaming/Sublime Text 3/Packages/CSSTidy/CSSTidy.sublime-settings",
+		"/D/webdev/gmap_embed.html",
+		"/D/webdev/Hadrien Mongouachon.html",
+		"/C/Users/misabrzi/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/D/webdev/gmap.html",
+		"/D/webdev/wdev.sublime-project",
+		"/D/home/misabrzi/urls/tmp-lnk",
+		"/D/home/misabrzi/urls/Chrome TV session",
+		"/D/home/misabrzi/urls/Film",
+		"/D/home/misabrzi/urls/-- L 2 --",
+		"/D/home/misabrzi/urls/-- L 1 --",
+		"/C/Users/misabrzi/Documents/AUTORSKI TEKST EMIRA KUSTURICE",
+		"/D/home/misabrzi/urls/Urls.sublime-project",
+		"/D/home/misabrzi/urls/chrome session tv 1",
+		"/C/Users/misabrzi/Documents/Learn Bash Scripting",
+		"/C/Users/misabrzi/Documents/greetings.sh",
+		"/C/Users/misabrzi/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/misabrzi/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/home/misabrzi/urls/FF session",
+		"/D/home/misabrzi/urls/ff copy links 1",
+		"/D/home/misabrzi/urls/ff copy links 2",
+		"/D/home/misabrzi/urls/4k channels",
+		"/D/home/misabrzi/urls/sublime links",
+		"/D/home/misabrzi/urls/code links",
+		"/D/home/misabrzi/urls/natural beauty",
+		"/C/Users/misabrzi/Documents/tumblr_template.html",
+		"/C/Users/misabrzi/Documents/Copy-URL.html",
+		"/C/Users/misabrzi/Documents/Report.htm",
+		"/D/home/misabrzi/tmp/Takeout/index.html",
+		"/C/Users/misabrzi/Downloads/tradlink.c",
+		"/C/Users/misabrzi/Documents/yanggang.html",
+		"/C/Users/misabrzi/Documents/PowerShell/PowerShell Excel Spreadsheet Creation.ps1",
+		"/C/Users/misabrzi/Documents/PowerShell/PowerShell MakePrettyHTML.ps1",
+		"/C/Users/misabrzi/Documents/PowerShell/ScriptFiles/css/html.css",
+		"/C/Users/misabrzi/Documents/pthread-cp_mutex.c",
+		"/C/Users/misabrzi/Documents/pthread-cp_1.c",
+		"/C/Users/misabrzi/Documents/pthread-cp.c",
+		"/C/Users/misabrzi/Documents/e-bank/sogehomebank.txt",
+		"/C/Users/misabrzi/Documents/Network Properties.txt",
+		"/C/Users/misabrzi/Documents/session_buddy_export_2019_02_04_18_21_47.txt",
+		"/C/Users/misabrzi/Documents/Chrome-tabs.txt",
+		"/C/Users/misabrzi/Documents/Computer_Name.txt",
+		"/C/Users/misabrzi/Documents/Corona 1.3 Benchmark.txt"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<img src=\"\" alt=\"\">\n\t\t\t\t\t<p>Stručni tim našeg Centra čine predavači sa višegodišnjim iskustvom stečenim u radu sa decom i odraslima u privatnim, osnovnim i srednjim školama, kao i na fakultetima u zemlji i inostranstvu. To su profesori nemačkog, engleskog, francuskog, španskog, ruskog i slovenačkog jezika.</p>\n\t\t\t\t</article>\n\t\t\t\t<article>\n\t\t\t\t\t<p>Škola je savremeno opremljena, poseduje i koristi moderna nastavna i didaktička sredstva. Programi i metodi usklađenji su sa standardima kvaliteta zajedničkog evropskog okvira. Učenje jezika koncipirano je tako da je u svakom trenutku moguće usavršavanje. Za svaki jezik postoje osnovni - početni, srednji i viši tečajevi.</p>\n\t\t\t\t</article>\n\t\t\t\t<article>\n\t\t\t\t\t<p>Postoji čitav niz specijalnih programa, kao što su poslovni, konverzacijski i debatni tečajevi. Takođe specijalizovani kursevi iz oblasti ekonomije, prava, menadžmenta, bankarstva, tehničkih nauka, medicine, stomatologije i hoteljerstva. Sa uspehom se izvodi i pripremna nastava za studije, postdiplomske studije, rad u inostranstvu, kao i za međunarodne ispite i sertifikate.</p>\n\t\t\t\t</article>\n\t\t\t</div>\n\t\t</section>\n\t\t<!-- Kursevi -->\n\t\t<section class=\"kursevi\">\n\t\t\t\n\t\t\t<span>\n\t\t\t\t<h2 class=\"Naslovi\">Kursevi</h2>\n\t\t\t</span>\n\t\t\t\n\t\t\t<article class=\"kursevi_tekst\">\n\t\t\t\t<h3>Povoljnosti</h3>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>rad u malim grupama (do 6 polaznika)</li>\n\t\t\t\t\t<li>mogućnost intezivne nastave</li>\n\t\t\t\t\t<li>završni ispit i diploma ulaze u cenu kursa</li>\n\t\t\t\t\t<li>20% poopusta za drugi jezik (ili drugog člana porodice)</li>\n\t\t\t\t\t<li>povoljnosti (20% popusti) za organizovane grupe (minimum 4-5 članova)</li>\n\t\t\t\t\t<li>sertifikati prihvaćeni od domaćih i stranih kompanija i univerziteta u zemlji</li>\n\t\t\t\t\t<li>udžbenici</li>\n\t\t\t\t</ul>\n\t\t\t</article>\n\t\t\t<article class=\"kursevi_tekst\">\n\t\t\t\t<h3>Trajanje tečaja</h3>\n\t\t\t\t<p>Svaki tečaj za odrasle sadrži 60 časova. Na kraju tečaja organizuje se ispit koji se sastoji iz pismenog i usmenog dela (ili pismeni, slušni, usmeni/konverzacijski). Nakon toga izdaje se sertifikat. Tečaj traje 4 - 4,5 meseci.</p>\n\t\t\t\t<p>Đački i tinejdžerski tečajevi obuhvataju 64 časa i traju 8 meseci.</p>\n\t\t\t\t<p>Individualna nastava obuhvata 40 časova i traje 2 - 2,5 meseca. Postoji mogućnost i bržeg tempa rada.</p>\n\t\t\t\t<p>Priprema za ispit A1 na Goetheovom instititutu u Beogradu (za dobijanje nemačke vize).</p>\n\t\t\t</article>\n\t\t\t\n\t\t</section>\n\t\t\n\t\t<!-- /Main content -->\n\t\t<!-- FOOTER -->\n\t\t\n\t\t<div class=\"footer\">\n\t\t\t<section class=\"kontakt\">\n\t\t\t\t<h2 id=\"Naslov_kontakt\">Kontakt</h2>\n\t\t\t</section>\n\t\t\t<section class=\"kontakt_info grid\">\n\t\t\t\t<span>\n\t\t\t\t\t\n\t\t\t\t\t<p>Centar za strane jezike i kulturu Kraft</p>\n\t\t\t\t\t<address>\n\t\t\t\t\t\t<img src=\"./img/home.png\" alt=\"Adresa\">\n\t\t\t\t\t\t<p>Obrenovićeva 15/2, 2 sprat, Niš.</p>\n\t\t\t\t\t\t<img src=\"./img/phone.png\" alt=\"Telefon\">\n\t\t\t\t\t\t<a href=\"tel:+38118551155\" title=\"telefon\">018/55-11-55</a>\n\t\t\t\t\t\t<a href=\"tel:+381641703131\" title=\"mobilni\">064/170-31-31</a>\n\t\t\t\t\t\t<img src=\"./img/mail.png\" alt=\"e-mail\">\n\t\t\t\t\t\t<a href=\"mailto:skolakraft@gmail.com\" title=\"e-mail\">skolakraft@gmail.com</a>\n\t\t\t\t\t</address>\n\t\t\t\t</span>\n\t\t\t\t<section class=\"gmap\">\n\t\t\t\t\t<img src=\"./img/mapa_velika.png\" alt=\"gmap\">\n\t\t\t\t</section>\n\t\t\t\t\n\t\t\t</section>\n\t\t\t\n\t\t\t<section class=\"social_links\">\n\t\t\t\t<div>\n\t\t\t\t\t<a href=\"https://www.instagram.com/kraft.centar/\" title=\"kraft.centar\"><img src=\"./img/instagram.png\" alt=\"Kraft-Centar za strane jezike\"></img></a>\n\t\t\t\t\t<a href=\"https://www.facebook.com/centar.kraft\" title=\"Kraft centar\"><img src=\"./img/facebook.png\" alt=\"Kraft - Centar za strane jezike i kulturu\"></img></a>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t<i class=\"copyright\">© 2019 Kraft</i>\n\t\t</div>\n\t</main>\n\t<footer>\n\t</footer>\n</body>",
+			";\n",
+			"media",
+			"main",
+			"chinese",
+			"china",
+			"\n",
+			"https://www.pornhub.com/model/mattiedoll",
+			"https://www.pornhub.com/model/milagrace",
+			"https://www.instagram.com/demirosemawby/",
+			"</br>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<br />"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "web_dev-master/index.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 387.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "web_dev-master/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3987,
+								3987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "kraft_1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2990,
+								2990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3822.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "css/kraft_1.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7695,
+								7704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2080,
+								2080
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1523.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.451147298298,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "",
+	"project": "skolakraft.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\home\\misabrzi\\urls\\Urls.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

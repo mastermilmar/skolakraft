@@ -18,15 +18,15 @@
 					<a class="logo" href="" title="kraft"></a>
 				</span>
 				<span id="menu_icon">
-					<a href="#" title="" onclick="openNav()">&#9776;</a>
-					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="javascript:void(0)" id="openbtn" class="btn" onclick="openNav()">&#8801;</a>
+					<a href="javascript:void(0)" id="closebtn" class="btn" onclick="closeNav()">&times;</a>
 				</span>
 			</span>
 			<span class="responsive_nav">
 				<nav>
 					<!-- <span id="menu-toggle-container">
-									<input type="checkbox" id="menu-toggle"/>
-									<label for="menu-toggle">Meni</label>
+								<input type="checkbox" id="menu-toggle"/>
+								<label for="menu-toggle">Meni</label>
 					</span> -->
 					<ul id="menu">
 						<li><a href="#upis" title="">Upis</a></li>
@@ -116,7 +116,7 @@
 		<!-- O Školi -->
 		<section id="o_skoli" class="o_skoli container">
 			<!-- <div class="skola_naslov">
-																<h2>O Školi</h2>
+					<h2>O Školi</h2>
 			</div> -->
 			<div class="skola">
 				<article>
@@ -204,10 +204,14 @@
 	<script>
 	function openNav() {
 		document.getElementById("menu").style.display = "flex";
+		document.getElementById("openbtn").style.display = "none";
+		document.getElementById("closebtn").style.display = "inline-block";
 	}
 
 	function closeNav() {
 		document.getElementById("menu").style.display = "none";
+		document.getElementById("closebtn").style.display = "none";
+		document.getElementById("openbtn").style.display = "inline-block";
 	}
 	</script>
 	<!-- <script>

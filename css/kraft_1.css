@@ -45,6 +45,10 @@ a:hover {
 	color: #5498ab;
 }
 
+a:active {
+	color: #5498ab;
+}
+
 /* Body */
 
 body {

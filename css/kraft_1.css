@@ -85,6 +85,16 @@ h3 {
 	font-family: "Roboto Slab";
 }
 
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+strong {
+	font-style: normal;
+}
+
 /*header::after {
 	display: block;
 	width: 100%;

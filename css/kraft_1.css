@@ -40,6 +40,35 @@ html {
 	src: url(../font/Lato-Light.ttf);
 }
 
+/*@font-face {
+	font-family: "Cantarell Regular";
+	src: url(../font/Cantarell-Regular.ttf);
+}*/
+
+/*@font-face {
+	font-family: "Cantarell";
+	src: url(../font/Cantarell-Regular.ttf);
+}*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Cantarell&display=swap');*/
+
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cantarell Regular'), local('Cantarell-Regular'), url(../font/Cantarell-Regular.woff2) format('woff2');
+  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;*/
+}
+
+/*@import url('https://fonts.googleapis.com/css?family=Palanquin:100&display=swap&subset=latin-ext');*/
+
+
+
+@font-face {
+	font-family: "Palanquin Thin";
+	src: url(../font/Palanquin-Thin.ttf);
+}
+
 @font-face {
 	font-family: "Raleway Regular";
 	src: url(../font/Raleway-Regular.ttf);
@@ -83,9 +112,15 @@ body {
 	/*height: 100%;*/
 	margin: 0 auto;
 	width: 100%;
+	line-height: 2rem;
 	/*max-width: 1200px;*/
 	/*font-family: "Corbel";*/
-	font-family: "Raleway Light";
+	/*font-family: "Cantarell", Cantarell-Regular;*/
+	font-family: 'Palanquin Thin', sans-serif;
+	/*font-family: "Cantarell Regular";*/
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
 	background-color: white;
 	/*background-image: url(../img/knjige_pozadina.jpg);
 	background-size: cover; 

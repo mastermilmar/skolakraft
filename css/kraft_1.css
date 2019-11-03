@@ -35,6 +35,29 @@ html {
 	src: url(../font/RobotoSlab-Thin.ttf);
 }
 
+@font-face {
+	font-family: "Lato Light";
+	src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family: "Raleway Regular";
+	src: url(../font/Raleway-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Raleway Medium";
+	src: url(../font/Raleway-Medium.ttf);
+}
+
+@font-face {
+	font-family: "Raleway Light";
+	src: url(../font/Raleway-Light.ttf);
+}
+
+/*@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap&subset=latin-ext');*/
+
+
 /* Hyper-Link styling */
 
 a {
@@ -61,8 +84,8 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	/*max-width: 1200px;*/
-	font-family: "Corbel";
-
+	/*font-family: "Corbel";*/
+	font-family: "Raleway Light";
 	background-color: white;
 	/*background-image: url(../img/knjige_pozadina.jpg);
 	background-size: cover; 
@@ -538,7 +561,7 @@ main article {
 
 .skola article h2 {
 	display: inline-block;
-	margin-left: 2rem;
+	margin: 2rem 5rem;
 	font-family: "Roboto Slab";
 }
 

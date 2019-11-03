@@ -11,7 +11,7 @@ html {
 /*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');*/
 
 @font-face {
-	font-family: "Corbel Regular";
+	font-family: "Corbel";
 	src: url(../font/CORBEL.TTF);
 }
 
@@ -61,7 +61,8 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	/*max-width: 1200px;*/
-	font-family: "Corbel Light", sans-serif;
+	font-family: "Corbel";
+
 	background-color: white;
 	/*background-image: url(../img/knjige_pozadina.jpg);
 	background-size: cover; 
@@ -351,9 +352,12 @@ main article {
 	justify-content: center;
 	flex-basis: 50%;
 	margin: 1.3rem;
+	margin: 0;
+	padding: 1rem 0;
 }
 
 .Naslovi {
+	/* display: inline-block; */
 	display: inline-block;
 	margin-left: 5%;
 	margin-top: auto;
@@ -566,6 +570,9 @@ main article {
 	margin: 1.3rem;
 	
 	align-self: center;
+
+	margin: auto 0;
+	height: 100%;
 }
 
 /*  **FOOTER**  */
@@ -642,12 +649,16 @@ address > em {
 	margin: .5em auto;
 }
 
+.kontakt_info > address > em > p {
+	font-size: 1rem;
+}
+
 .kontakt_info p {
 	font-size: 1em;
 	margin: 0;
 }
 
-.kontakt_info  address h3 {
+.kontakt_info address h3 {
 	font-size: 1.5rem;
 	margin-top: 2rem;
 	margin-bottom: .5rem;
@@ -672,8 +683,9 @@ address > em {
 }
 
 .gmap > iframe {
-	/*height: 100%;*/ 
+	height: 100%; 
 	width: 100%;
+	min-height: 500px;
 }
 
 /*.gmap > img {
@@ -851,9 +863,16 @@ address > em {
 		margin: 0 1.3rem 1.5rem 1.3rem;
 	}
 
+	.upis_naslov {
+		/* margin: 1.3rem; */
+		margin: 0;
+		padding: 1rem 0;
+	}
+
 	.jezici_naslov {
 		/* margin: 1.3rem; */
-		margin: 1.3rem auto;
+		margin: 0;
+		padding: 1rem 0;
 	}
 
 	.kursevi > span {
@@ -861,6 +880,7 @@ address > em {
 		/* justify-content: center; */
 		/* align-content: center; */
 		margin: 1.3rem auto;
+		padding: 1rem 0;
 		width: 100%;
 		display: inline-block;
 	}

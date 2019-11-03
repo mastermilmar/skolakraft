@@ -56,7 +56,7 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	/*max-width: 1200px;*/
-	font-family: "Corbel Regular", sans-serif;
+	font-family: "Corbel Light", sans-serif;
 	background-color: white;
 	/*background-image: url(../img/knjige_pozadina.jpg);
 	background-size: cover; 
@@ -568,10 +568,6 @@ main article {
 	background-color: #fff;
 }
 
-.kontak {
-
-	
-}
 
 /*.kontakt_info {
 	text-align: center;
@@ -612,10 +608,22 @@ main article {
 
 }
 
-.kontakt_info > address {
+/*.kontakt_info > address {
 	display: inline-flex;
 	flex-flow: column;
 	justify-content: center;
+}
+*/
+
+address {
+	display: inline-block;
+	max-width: 600px;
+	
+	margin: 1.3rem 7rem;
+}
+
+address > em {
+	font-style: normal;
 }
 
 .kontakt_info strong {
@@ -637,16 +645,6 @@ main article {
 	font-size: 1.5rem;
 	margin-top: 2rem;
 	margin-bottom: .5rem;
-}
-
-address {
-	display: inline-block;
-	max-width: 600px;
-	font-style: inherit;
-}
-
-address > em {
-	font-style: normal;
 }
 
 .gmap {
@@ -935,7 +933,8 @@ address > em {
 	}
 	*/
 	
-	input[type=checkbox]:checked #menu {
+/*	input[type=checkbox]:checked #menu {
+
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
@@ -946,12 +945,12 @@ address > em {
 		background-color: white;
 		width: 100px;
 		height: 100px;
-		/*position: absolute;*/
-		/*width: 100vw;
-		height: 100vh;*/
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
 	}
-
-
+*/
+	 
 
 	/*#menu-toggle:checked #menu {
 		display: flex;

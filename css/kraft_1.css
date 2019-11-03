@@ -112,11 +112,11 @@ body {
 	/*height: 100%;*/
 	margin: 0 auto;
 	width: 100%;
-	line-height: 2rem;
+	/*line-height: 2rem;*/
 	/*max-width: 1200px;*/
-	/*font-family: "Corbel";*/
+	font-family: "Corbel";
 	/*font-family: "Cantarell", Cantarell-Regular;*/
-	font-family: 'Palanquin Thin', sans-serif;
+	/*font-family: 'Palanquin Thin', sans-serif;*/
 	/*font-family: "Cantarell Regular";*/
 	font-style: normal;
 	font-variant: normal;
@@ -128,6 +128,14 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-origin: content-box;*/
+}
+
+body p {
+	font-family: 'Palanquin Thin', sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 2rem;
 }
 
 /* Header */
@@ -702,9 +710,17 @@ address > em {
 	font-weight: lighter;
 }
 
+.kontakt_info > address > em > b {
+	width: 50%;
+	display: inline-block;
+	font-size: initial;
+}
+
 .kontakt_info > address > img {
 	display: block;
 	margin: .5em auto;
+	height: 60px;
+	width: 60px;
 }
 
 .kontakt_info > address > em > p {

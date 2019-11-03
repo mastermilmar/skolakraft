@@ -15,6 +15,11 @@ html {
 	src: url(../font/CORBEL.TTF);
 }
 
+/*@font-face {
+	font-family: "Corbel Light";
+	src: url(../font/CORBEL.TTF);
+}*/
+
 @font-face {
 	font-family: "Roboto Slab";
 	src: url(../font/RobotoSlab-Regular.ttf);
@@ -289,6 +294,7 @@ nav li:hover {
 .subheader > span > p {
 	margin: 0;
 	/*text-decoration: underline;*/
+	font-family: "Corbel Light", sans-serif;
 }
 
 .subheader > span > a {
@@ -618,7 +624,7 @@ main article {
 address {
 	display: inline-block;
 	max-width: 600px;
-	
+	font-style: normal;
 	margin: 1.3rem 7rem;
 }
 
@@ -771,7 +777,8 @@ address > em {
 		margin: 1rem;
 		/*margin-top: 1rem;
 		margin-left: 1rem;*/
-		background-image: url(../img/logo_k.png);
+		/*content: "kraft";*/
+		background-image: url(../img/kraft-logo-text.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;

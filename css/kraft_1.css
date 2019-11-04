@@ -337,16 +337,16 @@ nav li:hover {
 }
 
 .subheader > h1 {
-	font-size: 72px;
+	font-size: 80px;
 	font-family: "Roboto Slab Light";
 	margin-top: 0;
-	line-height: 72px;
+	line-height: 80px;
 	max-width: 300px;
 }
 
 .srednji_tekst {
 	line-height: 36px;
-	font-size: 24px;
+	font-size: 28px;
 	font-family: "Roboto Slab Thin";
 	max-width: 480px;
 	margin-top: 0;
@@ -565,6 +565,7 @@ main article {
 
 .skola > article {
 	margin: 1.3rem;
+	min-height: 600px;
 }
 
 .skola > article:first-child {
@@ -578,7 +579,7 @@ main article {
 
 	color: white;
 
-	min-height: 600px;
+	/*min-height: 600px;*/
 }
 
 .skola > article:nth-child(2) {
@@ -704,6 +705,7 @@ address {
 	max-width: 600px;
 	font-style: normal;
 	margin: 1.3rem 7rem;
+	font-family: Corbel;
 }
 
 address > em {
@@ -713,6 +715,8 @@ address > em {
 .kontakt_info strong {
 	font-size: 3em;
 	font-weight: lighter;
+	display: inline-block;
+	height: 1em;
 }
 
 .kontakt_info > address > em > b {
@@ -930,16 +934,22 @@ address > em {
 	.subheader > h1 {
 		/* margin-top: 0; */
 		margin: 0 auto 1.5rem 1.3rem;
+		font-size: 72px;
+		line-height: 72px;
 	}
 
 	.subheader > span {
 		margin: auto 1.3rem;
+		line-height: 40px;
+		font-size: 28px;
 		/*font-family: "Corbel Regular", sans-serif;*/
 	}
 
 	.srednji_tekst {
 		/* margin-top: 0; */
 		margin: 0 1.3rem 1.5rem 1.3rem;
+		line-height: 36px;
+		font-size: 24px;
 	}
 
 	.upis_naslov {
@@ -952,6 +962,10 @@ address > em {
 		/* margin: 1.3rem; */
 		margin: 0;
 		padding: 1rem 0;
+	}
+
+	.upis_tekst > article > img {
+		margin-top: 0;
 	}
 
 	.kursevi > span {

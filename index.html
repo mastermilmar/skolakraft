@@ -60,7 +60,8 @@
 	<!-- -->
 	<!-- Main content -->
 	<main>
-		<!-- Upis -->
+		<!-- Upis id="nav-upis" -->
+		<!-- <empty style="position: relative; top: -100px," id="nav-upis"> -->
 		<section id="upis" class="upis container grid">
 			<div class="upis_naslov">
 				<h2 class="Naslovi">Upis</h2>
@@ -115,6 +116,7 @@
 			</div>
 		</section>
 		<!-- O Školi -->
+		<!-- <empty style="position: relative; top: -100px," id="nav-skola"> -->
 		<section id="o_skoli" class="o_skoli container">
 			<!-- <div class="skola_naslov">
 					<h2>O Školi</h2>
@@ -146,13 +148,27 @@
 			<article class="kursevi_tekst">
 				<h3>Povoljnosti</h3>
 				<ul>
-					<li><p>rad u malim grupama (do 6 polaznika)</p></li>
-					<li><p>mogućnost intezivne nastave</p></li>
-					<li><p>završni ispit i diploma ulaze u cenu kursa</p></li>
-					<li><p>20% popusta za drugi jezik (ili drugog člana porodice)</p></li>
-					<li><p>povoljnosti (20% popusta) za organizovane grupe (minimum 4-5 članova)</p></li>
-					<li><p>sertifikati prihvaćeni od domaćih i stranih kompanija i univerziteta u zemlji</p></li>
-					<li><p>udžbenici</p></li>
+					<li>
+						<p>rad u malim grupama (do 6 polaznika)</p>
+					</li>
+					<li>
+						<p>mogućnost intezivne nastave</p>
+					</li>
+					<li>
+						<p>završni ispit i diploma ulaze u cenu kursa</p>
+					</li>
+					<li>
+						<p>20% popusta za drugi jezik (ili drugog člana porodice)</p>
+					</li>
+					<li>
+						<p>povoljnosti (20% popusta) za organizovane grupe (minimum 4-5 članova)</p>
+					</li>
+					<li>
+						<p>sertifikati prihvaćeni od domaćih i stranih kompanija i univerziteta u zemlji</p>
+					</li>
+					<li>
+						<p>udžbenici</p>
+					</li>
 				</ul>
 			</article>
 			<article class="kursevi_tekst">
@@ -205,20 +221,31 @@
 	<footer class="footer">
 		<small class="copyright">© 2019 Kraft</small>
 	</footer>
-	<script>
-	function openNav() {
-		document.getElementById("menu").style.display = "flex";
-		document.getElementById("openbtn").style.display = "none";
-		document.getElementById("closebtn").style.display = "inline-block";
-	}
-
-	function closeNav() {
-		document.getElementById("menu").style.display = "";
-		document.getElementById("closebtn").style.display = "none";
-		document.getElementById("openbtn").style.display = "inline-block";
-	}
-
+	<script src="jquery-3.4.1.js" type="text/javascript" charset="utf-8" async defer></script>
+<!-- 	<script>
+		$(document).click(function(event) {
+			$target = $(event.target);
+			if (!$target.closest('#menu').length &&
+				$('#menu').is(":visible")) {
+				$('#menu').hide();
+			}
+		});
+	</script>
+ -->	<script>
+		function openNav() {
+			document.getElementById("menu").style.display = "flex";
+			document.getElementById("openbtn").style.display = "none";
+			document.getElementById("closebtn").style.display = "inline-block";
+		}
 	
+		function closeNav() {
+			document.getElementById("menu").style.display = "";
+			document.getElementById("closebtn").style.display = "none";
+			document.getElementById("openbtn").style.display = "inline-block";
+		}
+	
+
+
 	// function closeMenu() {
 	// 	var menu-toggle = document.getElementById("menu");
 	// 	window.onclick = function(event) {
@@ -226,9 +253,8 @@
 	// 		menu-toggle.style.display = "";
 	// 	}
 	// }
-	
 	</script>
-<!-- 	<script>
+	<!-- 	<script>
 	function openNav() {
 		document.getElementById("menu").style.display = "flex";
 		document.getElementById("openbtn").style.display = "none";
@@ -249,7 +275,8 @@
 		}
 	}
 	</script>
- -->	<!-- <script>
+ -->
+	<!-- <script>
 	function myFunction() {
 		var x = document.getElementById("menu");
 		if (x.className === "topnav") {

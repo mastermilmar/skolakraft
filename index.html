@@ -131,11 +131,11 @@
 					<p>Stručni tim našeg Centra čine predavači sa višegodišnjim iskustvom stečenim u radu sa decom i odraslima u privatnim, osnovnim i srednjim školama, kao i na fakultetima u zemlji i inostranstvu. To su profesori nemačkog, engleskog, francuskog, španskog, ruskog i slovenačkog jezika.</p>
 				</article>
 				<article>
-					<img src="./img/whiteboard-1.png" alt="">
+					<img src="./img/whiteboard-3.png" alt="">
 					<p>Škola je savremeno opremljena, poseduje i koristi moderna nastavna i didaktička sredstva. Programi i metodi usklađenji su sa standardima kvaliteta zajedničkog evropskog okvira. Učenje jezika koncipirano je tako da je u svakom trenutku moguće usavršavanje. Za svaki jezik postoje osnovni - početni, srednji i viši tečajevi.</p>
 				</article>
 				<article>
-					<img src="./img/presentation-1.png" alt="">
+					<img src="./img/presentation-4.png" alt="">
 					<p>Postoji čitav niz specijalnih programa, kao što su poslovni, konverzacijski i debatni tečajevi. Takođe specijalizovani kursevi iz oblasti ekonomije, prava, menadžmenta, bankarstva, tehničkih nauka, medicine, stomatologije i hoteljerstva. Sa uspehom se izvodi i pripremna nastava za studije, postdiplomske studije, rad u inostranstvu, kao i za međunarodne ispite i sertifikate.</p>
 				</article>
 			</div>
@@ -231,7 +231,40 @@
 			}
 		});
 	</script>
- -->	<script>
+ -->
+
+<!-- 	<script type="text/javascript">
+		$(window).click(function() {
+		//Hide the menus if visible
+		});
+
+		$('#menu').click(function(event){
+			event.stopPropagation();
+		});
+	</script>
+ -->
+
+	<script type="text/javascript">
+		function hideOnClickOutside(element) {
+		const outsideClickListener = event => {
+			if (!element.contains(event.target) && isVisible(element)) { // or use: event.target.closest(selector) === null
+			element.style.display = 'none'
+			removeClickListener()
+			}
+		}
+
+		const removeClickListener = () => {
+			document.removeEventListener('click', outsideClickListener)
+		}
+
+		document.addEventListener('click', outsideClickListener)
+		}
+
+		const isVisible = elem => !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length )
+	</script>
+
+	<script>
+
 		function openNav() {
 			document.getElementById("menu").style.display = "flex";
 			document.getElementById("openbtn").style.display = "none";
@@ -244,8 +277,6 @@
 			document.getElementById("openbtn").style.display = "inline-block";
 		}
 	
-
-
 	// function closeMenu() {
 	// 	var menu-toggle = document.getElementById("menu");
 	// 	window.onclick = function(event) {

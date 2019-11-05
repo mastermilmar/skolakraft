@@ -598,7 +598,7 @@ main article {
 .skola > article > img {
 	display: block;
 	margin: 5rem auto 1em auto;
-	width: 150px;
+	width: 200px;
 	
 }
 
@@ -631,6 +631,7 @@ main article {
 .kursevi > span {
 	background-color: #f5f7f6;
 	margin: 1.3rem;
+	display: grid;
 	vertical-align: middle;
 	justify-content: center;
 	align-content: center;

@@ -30,10 +30,10 @@
 								<label for="menu-toggle">Meni</label>
 					</span> -->
 					<ul id="menu">
-						<li><a href="#upis" title="">Upis</a></li>
-						<li><a href="#jezici" title="">Jezici</a></li>
-						<li><a href="#o_skoli" title="">O Školi</a></li>
-						<li><a href="#kontakt" title="">Kontakt</a></li>
+						<li><a href="#upis" title="" onclick="closeNav()">Upis</a></li>
+						<li><a href="#jezici" title="" onclick="closeNav()">Jezici</a></li>
+						<li><a href="#o_skoli" title="" onclick="closeNav()">O Školi</a></li>
+						<li><a href="#kontakt" title="" onclick="closeNav()">Kontakt</a></li>
 					</ul>
 				</nav>
 			</span>
@@ -298,6 +298,7 @@
 		document.getElementById("openbtn").style.display = "inline-block";
 	}
 
+<<<<<<< Updated upstream
 	var menu = document.getElementById("menu");
 
 	window.onclick = function(event) {
@@ -305,6 +306,28 @@
 			menu.style.display = "";
 		}
 	}
+=======
+	function closeMenu() {
+		document.getElementById("menu").style.display = "none";
+	}
+
+	window.onclick = function(event) {
+		if (event.target == document.getElementById("menu")) {
+			closeMenu();
+		}
+	}
+
+	// $(document).ready(function() {
+	// 	$('#menu').click(function() {
+	// 		if ($('#menu').css('display') === 'inline-block') {
+	// 			$('#menu').css('display', 'none');
+	// 	} else {
+	// 		$('#menu').css('display', 'inline-block');
+	// 	}
+	// 	});
+	// });
+
+>>>>>>> Stashed changes
 	</script>
  -->
 	<!-- <script>

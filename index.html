@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/kraft_1.css">
 	<link rel="icon" href="favicon.ico">
+	<!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cantarell" /> -->
 </head>
 
 <body>
@@ -59,7 +60,8 @@
 	<!-- -->
 	<!-- Main content -->
 	<main>
-		<!-- Upis -->
+		<!-- Upis id="nav-upis" -->
+		<!-- <empty style="position: relative; top: -100px," id="nav-upis"> -->
 		<section id="upis" class="upis container grid">
 			<div class="upis_naslov">
 				<h2 class="Naslovi">Upis</h2>
@@ -114,6 +116,7 @@
 			</div>
 		</section>
 		<!-- O Školi -->
+		<!-- <empty style="position: relative; top: -100px," id="nav-skola"> -->
 		<section id="o_skoli" class="o_skoli container">
 			<!-- <div class="skola_naslov">
 					<h2>O Školi</h2>
@@ -124,15 +127,15 @@
 					<p>Centar za podučavanje stranim jezicima i prevodilačke aktivnosti "Kraft" nalazi se u Obrenovićevoj 15/2, u samom centru grada. Škola stranih jezika sa dugom tradicijom i jedna je od prvih privatnih u Nišu. Osnovana 2005. sa velikim brojem zadovoljnih polaznika.</p>
 				</article>
 				<article>
-					<img src="./img/people.png" alt="">
+					<img src="./img/106__team.png" alt="">
 					<p>Stručni tim našeg Centra čine predavači sa višegodišnjim iskustvom stečenim u radu sa decom i odraslima u privatnim, osnovnim i srednjim školama, kao i na fakultetima u zemlji i inostranstvu. To su profesori nemačkog, engleskog, francuskog, španskog, ruskog i slovenačkog jezika.</p>
 				</article>
 				<article>
-					<img src="./img/whiteboard.png" alt="">
+					<img src="./img/whiteboard-3.png" alt="">
 					<p>Škola je savremeno opremljena, poseduje i koristi moderna nastavna i didaktička sredstva. Programi i metodi usklađenji su sa standardima kvaliteta zajedničkog evropskog okvira. Učenje jezika koncipirano je tako da je u svakom trenutku moguće usavršavanje. Za svaki jezik postoje osnovni - početni, srednji i viši tečajevi.</p>
 				</article>
 				<article>
-					<img src="./img/presentation.png" alt="">
+					<img src="./img/presentation-5.png" alt="">
 					<p>Postoji čitav niz specijalnih programa, kao što su poslovni, konverzacijski i debatni tečajevi. Takođe specijalizovani kursevi iz oblasti ekonomije, prava, menadžmenta, bankarstva, tehničkih nauka, medicine, stomatologije i hoteljerstva. Sa uspehom se izvodi i pripremna nastava za studije, postdiplomske studije, rad u inostranstvu, kao i za međunarodne ispite i sertifikate.</p>
 				</article>
 			</div>
@@ -145,13 +148,27 @@
 			<article class="kursevi_tekst">
 				<h3>Povoljnosti</h3>
 				<ul>
-					<li><p>rad u malim grupama (do 6 polaznika)</p></li>
-					<li><p>mogućnost intezivne nastave</p></li>
-					<li><p>završni ispit i diploma ulaze u cenu kursa</p></li>
-					<li><p>20% popusta za drugi jezik (ili drugog člana porodice)</p></li>
-					<li><p>povoljnosti (20% popusta) za organizovane grupe (minimum 4-5 članova)</p></li>
-					<li><p>sertifikati prihvaćeni od domaćih i stranih kompanija i univerziteta u zemlji</p></li>
-					<li><p>udžbenici</p></li>
+					<li>
+						<p>rad u malim grupama (do 6 polaznika)</p>
+					</li>
+					<li>
+						<p>mogućnost intezivne nastave</p>
+					</li>
+					<li>
+						<p>završni ispit i diploma ulaze u cenu kursa</p>
+					</li>
+					<li>
+						<p>20% popusta za drugi jezik (ili drugog člana porodice)</p>
+					</li>
+					<li>
+						<p>povoljnosti (20% popusta) za organizovane grupe (minimum 4-5 članova)</p>
+					</li>
+					<li>
+						<p>sertifikati prihvaćeni od domaćih i stranih kompanija i univerziteta u zemlji</p>
+					</li>
+					<li>
+						<p>udžbenici</p>
+					</li>
 				</ul>
 			</article>
 			<article class="kursevi_tekst">
@@ -172,14 +189,16 @@
 				<address>
 					<em>
 						<strong>kraft</strong>
-						<p>CENTAR ZA STRANE<br>JEZIKE I KULTURU</p>
+						<br>
+						<b>CENTAR ZA STRANE JEZIKE I KULTURU</b>
 					</em>
 					<img src="./img/home.png" alt="Adresa">
-					<p>Obrenovićeva 15/2, 2 sprat, Niš.</p>
+					<a>Obrenovićeva 15/2, 2 sprat, Niš.</a>
 					<img src="./img/phone.png" alt="Telefon">
 					<span>
 						<a href="tel:+38118551155" title="telefon">018/55-11-55</a>
-						&nbsp;
+						<br>
+						<!-- &nbsp; -->
 						<a href="tel:+381641703131" title="mobilni">064/170-31-31</a>
 					</span>
 					<img src="./img/mail.png" alt="e-mail">
@@ -202,7 +221,71 @@
 	<footer class="footer">
 		<small class="copyright">© 2019 Kraft</small>
 	</footer>
+	<script src="jquery-3.4.1.js" type="text/javascript" charset="utf-8" async defer></script>
+<!-- 	<script>
+		$(document).click(function(event) {
+			$target = $(event.target);
+			if (!$target.closest('#menu').length &&
+				$('#menu').is(":visible")) {
+				$('#menu').hide();
+			}
+		});
+	</script>
+ -->
+
+<!-- 	<script type="text/javascript">
+		$(window).click(function() {
+		//Hide the menus if visible
+		});
+
+		$('#menu').click(function(event){
+			event.stopPropagation();
+		});
+	</script>
+ -->
+
+	<script type="text/javascript">
+		function hideOnClickOutside(element) {
+		const outsideClickListener = event => {
+			if (!element.contains(event.target) && isVisible(element)) { // or use: event.target.closest(selector) === null
+			element.style.display = 'none'
+			removeClickListener()
+			}
+		}
+
+		const removeClickListener = () => {
+			document.removeEventListener('click', outsideClickListener)
+		}
+
+		document.addEventListener('click', outsideClickListener)
+		}
+
+		const isVisible = elem => !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length )
+	</script>
+
 	<script>
+
+		function openNav() {
+			document.getElementById("menu").style.display = "flex";
+			document.getElementById("openbtn").style.display = "none";
+			document.getElementById("closebtn").style.display = "inline-block";
+		}
+	
+		function closeNav() {
+			document.getElementById("menu").style.display = "";
+			document.getElementById("closebtn").style.display = "none";
+			document.getElementById("openbtn").style.display = "inline-block";
+		}
+	
+	// function closeMenu() {
+	// 	var menu-toggle = document.getElementById("menu");
+	// 	window.onclick = function(event) {
+	// 	if (event.target == menu-toggle) {
+	// 		menu-toggle.style.display = "";
+	// 	}
+	// }
+	</script>
+	<!-- 	<script>
 	function openNav() {
 		document.getElementById("menu").style.display = "flex";
 		document.getElementById("openbtn").style.display = "none";
@@ -210,11 +293,43 @@
 	}
 
 	function closeNav() {
-		document.getElementById("menu").style.display = "none";
+		document.getElementById("menu").style.display = "";
 		document.getElementById("closebtn").style.display = "none";
 		document.getElementById("openbtn").style.display = "inline-block";
 	}
+
+<<<<<<< Updated upstream
+	var menu = document.getElementById("menu");
+
+	window.onclick = function(event) {
+		if (event.target == menu) {
+			menu.style.display = "";
+		}
+	}
+=======
+	function closeMenu() {
+		document.getElementById("menu").style.display = "none";
+	}
+
+	window.onclick = function(event) {
+		if (event.target == document.getElementById("menu")) {
+			closeMenu();
+		}
+	}
+
+	// $(document).ready(function() {
+	// 	$('#menu').click(function() {
+	// 		if ($('#menu').css('display') === 'inline-block') {
+	// 			$('#menu').css('display', 'none');
+	// 	} else {
+	// 		$('#menu').css('display', 'inline-block');
+	// 	}
+	// 	});
+	// });
+
+>>>>>>> Stashed changes
 	</script>
+ -->
 	<!-- <script>
 	function myFunction() {
 		var x = document.getElementById("menu");

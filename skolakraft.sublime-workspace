@@ -421,7 +421,7 @@
 			"file": "css/kraft_1.css",
 			"settings":
 			{
-				"buffer_size": 17582,
+				"buffer_size": 17645,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -666,7 +666,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -740,15 +740,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17582,
+						"buffer_size": 17645,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6558,
+								6558
 							]
 						],
 						"settings":
@@ -757,7 +757,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 15978.0,
+						"translation.y": 6210.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

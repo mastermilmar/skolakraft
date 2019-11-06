@@ -348,7 +348,7 @@ nav li:hover {
 .srednji_tekst {
 	line-height: 36px;
 	font-size: 28px;
-	font-family: "Roboto Slab Thin";
+	font-family: "Roboto Slab Light";
 	max-width: 480px;
 	margin-top: 0;
 
@@ -365,11 +365,16 @@ nav li:hover {
 .subheader > span > p {
 	margin: 0;
 	/*text-decoration: underline;*/
-	font-family: "Corbel Light", sans-serif;
+	font-family: "Corbel", sans-serif;
 }
+
 
 .subheader > span > a {
 	text-decoration: underline;
+}
+
+.subheader > span > a > p {
+	font-family: "Corbel", sans-serif;
 }
 
 /* Main content */

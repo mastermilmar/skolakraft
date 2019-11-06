@@ -233,7 +233,7 @@ nav li {
 	text-decoration: none;
 	list-style: none;
 	font-family: "Corbel", sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 80px;
 	display: inline-block;
 	padding: 0 20px;
@@ -915,6 +915,11 @@ address > em {
 		width: 100%;
 		height: 100%;
 		
+	}
+
+	#menu > li {
+		/*font-variant: small-caps;*/
+		font-size: 30px;
 	}
 
 	#menu > li > a {

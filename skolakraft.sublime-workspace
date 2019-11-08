@@ -396,7 +396,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12087,
+				"buffer_size": 12132,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -579,6 +579,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav",
+			"ul",
+			"li",
+			"meta",
 			"openmenu",
 			">\n",
 			"<img src=\"\" alt=\"\">\n\t\t\t\t\t<p>Stručni tim našeg Centra čine predavači sa višegodišnjim iskustvom stečenim u radu sa decom i odraslima u privatnim, osnovnim i srednjim školama, kao i na fakultetima u zemlji i inostranstvu. To su profesori nemačkog, engleskog, francuskog, španskog, ruskog i slovenačkog jezika.</p>\n\t\t\t\t</article>\n\t\t\t\t<article>\n\t\t\t\t\t<p>Škola je savremeno opremljena, poseduje i koristi moderna nastavna i didaktička sredstva. Programi i metodi usklađenji su sa standardima kvaliteta zajedničkog evropskog okvira. Učenje jezika koncipirano je tako da je u svakom trenutku moguće usavršavanje. Za svaki jezik postoje osnovni - početni, srednji i viši tečajevi.</p>\n\t\t\t\t</article>\n\t\t\t\t<article>\n\t\t\t\t\t<p>Postoji čitav niz specijalnih programa, kao što su poslovni, konverzacijski i debatni tečajevi. Takođe specijalizovani kursevi iz oblasti ekonomije, prava, menadžmenta, bankarstva, tehničkih nauka, medicine, stomatologije i hoteljerstva. Sa uspehom se izvodi i pripremna nastava za studije, postdiplomske studije, rad u inostranstvu, kao i za međunarodne ispite i sertifikate.</p>\n\t\t\t\t</article>\n\t\t\t</div>\n\t\t</section>\n\t\t<!-- Kursevi -->\n\t\t<section class=\"kursevi\">\n\t\t\t\n\t\t\t<span>\n\t\t\t\t<h2 class=\"Naslovi\">Kursevi</h2>\n\t\t\t</span>\n\t\t\t\n\t\t\t<article class=\"kursevi_tekst\">\n\t\t\t\t<h3>Povoljnosti</h3>\n\t\t\t\t<ul>\n\t\t\t\t\t<li>rad u malim grupama (do 6 polaznika)</li>\n\t\t\t\t\t<li>mogućnost intezivne nastave</li>\n\t\t\t\t\t<li>završni ispit i diploma ulaze u cenu kursa</li>\n\t\t\t\t\t<li>20% poopusta za drugi jezik (ili drugog člana porodice)</li>\n\t\t\t\t\t<li>povoljnosti (20% popusti) za organizovane grupe (minimum 4-5 članova)</li>\n\t\t\t\t\t<li>sertifikati prihvaćeni od domaćih i stranih kompanija i univerziteta u zemlji</li>\n\t\t\t\t\t<li>udžbenici</li>\n\t\t\t\t</ul>\n\t\t\t</article>\n\t\t\t<article class=\"kursevi_tekst\">\n\t\t\t\t<h3>Trajanje tečaja</h3>\n\t\t\t\t<p>Svaki tečaj za odrasle sadrži 60 časova. Na kraju tečaja organizuje se ispit koji se sastoji iz pismenog i usmenog dela (ili pismeni, slušni, usmeni/konverzacijski). Nakon toga izdaje se sertifikat. Tečaj traje 4 - 4,5 meseci.</p>\n\t\t\t\t<p>Đački i tinejdžerski tečajevi obuhvataju 64 časa i traju 8 meseci.</p>\n\t\t\t\t<p>Individualna nastava obuhvata 40 časova i traje 2 - 2,5 meseca. Postoji mogućnost i bržeg tempa rada.</p>\n\t\t\t\t<p>Priprema za ispit A1 na Goetheovom instititutu u Beogradu (za dobijanje nemačke vize).</p>\n\t\t\t</article>\n\t\t\t\n\t\t</section>\n\t\t\n\t\t<!-- /Main content -->\n\t\t<!-- FOOTER -->\n\t\t\n\t\t<div class=\"footer\">\n\t\t\t<section class=\"kontakt\">\n\t\t\t\t<h2 id=\"Naslov_kontakt\">Kontakt</h2>\n\t\t\t</section>\n\t\t\t<section class=\"kontakt_info grid\">\n\t\t\t\t<span>\n\t\t\t\t\t\n\t\t\t\t\t<p>Centar za strane jezike i kulturu Kraft</p>\n\t\t\t\t\t<address>\n\t\t\t\t\t\t<img src=\"./img/home.png\" alt=\"Adresa\">\n\t\t\t\t\t\t<p>Obrenovićeva 15/2, 2 sprat, Niš.</p>\n\t\t\t\t\t\t<img src=\"./img/phone.png\" alt=\"Telefon\">\n\t\t\t\t\t\t<a href=\"tel:+38118551155\" title=\"telefon\">018/55-11-55</a>\n\t\t\t\t\t\t<a href=\"tel:+381641703131\" title=\"mobilni\">064/170-31-31</a>\n\t\t\t\t\t\t<img src=\"./img/mail.png\" alt=\"e-mail\">\n\t\t\t\t\t\t<a href=\"mailto:skolakraft@gmail.com\" title=\"e-mail\">skolakraft@gmail.com</a>\n\t\t\t\t\t</address>\n\t\t\t\t</span>\n\t\t\t\t<section class=\"gmap\">\n\t\t\t\t\t<img src=\"./img/mapa_velika.png\" alt=\"gmap\">\n\t\t\t\t</section>\n\t\t\t\t\n\t\t\t</section>\n\t\t\t\n\t\t\t<section class=\"social_links\">\n\t\t\t\t<div>\n\t\t\t\t\t<a href=\"https://www.instagram.com/kraft.centar/\" title=\"kraft.centar\"><img src=\"./img/instagram.png\" alt=\"Kraft-Centar za strane jezike\"></img></a>\n\t\t\t\t\t<a href=\"https://www.facebook.com/centar.kraft\" title=\"Kraft centar\"><img src=\"./img/facebook.png\" alt=\"Kraft - Centar za strane jezike i kulturu\"></img></a>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t<i class=\"copyright\">© 2019 Kraft</i>\n\t\t</div>\n\t</main>\n\t<footer>\n\t</footer>\n</body>",
@@ -648,7 +652,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12087,
+						"buffer_size": 12132,
 						"regions":
 						{
 						},
@@ -666,10 +670,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -747,8 +751,8 @@
 						"selection":
 						[
 							[
-								6558,
-								6558
+								10938,
+								10938
 							]
 						],
 						"settings":
@@ -757,10 +761,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6210.0,
+						"translation.y": 11969.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -789,7 +793,7 @@
 						"translation.y": 3429.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -817,7 +821,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -983,7 +987,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

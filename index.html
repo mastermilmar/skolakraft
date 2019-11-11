@@ -224,47 +224,6 @@
 		<small class="copyright">© 2019 Kraft</small>
 	</footer>
 	<!-- <script src="jquery-3.4.1.js" type="text/javascript" charset="utf-8" async defer></script> -->
-<!-- 	<script>
-		$(document).click(function(event) {
-			$target = $(event.target);
-			if (!$target.closest('#menu').length &&
-				$('#menu').is(":visible")) {
-				$('#menu').hide();
-			}
-		});
-	</script>
- -->
-
-<!-- 	<script type="text/javascript">
-		$(window).click(function() {
-		//Hide the menus if visible
-		});
-
-		$('#menu').click(function(event){
-			event.stopPropagation();
-		});
-	</script>
- -->
-
-<!-- 	<script type="text/javascript">
-		function hideOnClickOutside(element) {
-		const outsideClickListener = event => {
-			if (!element.contains(event.target) && isVisible(element)) { // or use: event.target.closest(selector) === null
-			element.style.display = 'none'
-			removeClickListener()
-			}
-		}
-
-		const removeClickListener = () => {
-			document.removeEventListener('click', outsideClickListener)
-		}
-
-		document.addEventListener('click', outsideClickListener)
-		}
-
-		const isVisible = elem => !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length )
-	</script>
- -->
 	<script>
 
 		function openNav() {
@@ -287,59 +246,4 @@
 	// 	}
 	// }
 	</script>
-	<!-- 	<script>
-	function openNav() {
-		document.getElementById("menu").style.display = "flex";
-		document.getElementById("openbtn").style.display = "none";
-		document.getElementById("closebtn").style.display = "inline-block";
-	}
-
-	function closeNav() {
-		document.getElementById("menu").style.display = "";
-		document.getElementById("closebtn").style.display = "none";
-		document.getElementById("openbtn").style.display = "inline-block";
-	}
-
-<<<<<<< Updated upstream
-	var menu = document.getElementById("menu");
-
-	window.onclick = function(event) {
-		if (event.target == menu) {
-			menu.style.display = "";
-		}
-	}
-=======
-	function closeMenu() {
-		document.getElementById("menu").style.display = "none";
-	}
-
-	window.onclick = function(event) {
-		if (event.target == document.getElementById("menu")) {
-			closeMenu();
-		}
-	}
-
-	// $(document).ready(function() {
-	// 	$('#menu').click(function() {
-	// 		if ($('#menu').css('display') === 'inline-block') {
-	// 			$('#menu').css('display', 'none');
-	// 	} else {
-	// 		$('#menu').css('display', 'inline-block');
-	// 	}
-	// 	});
-	// });
-
->>>>>>> Stashed changes
-	</script>
- -->
-	<!-- <script>
-	function myFunction() {
-		var x = document.getElementById("menu");
-		if (x.className === "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
-	</script> -->
 </body>

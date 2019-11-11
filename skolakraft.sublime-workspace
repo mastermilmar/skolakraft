@@ -396,7 +396,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12132,
+				"buffer_size": 9786,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -435,15 +435,6 @@
 			}
 		},
 		{
-			"contents": "// Get the modal\nvar modal = document.getElementById(\"myModal\");\n\n// Get the button that opens the modal\nvar btn = document.getElementById(\"myBtn\");\n\n// Get the <span> element that closes the modal\nvar span = document.getElementsByClassName(\"close\")[0];\n\n// When the user clicks on the button, open the modal\nbtn.onclick = function() {\n  modal.style.display = \"block\";\n}\n\n// When the user clicks on <span> (x), close the modal\nspan.onclick = function() {\n  modal.style.display = \"none\";\n}\n\n// When the user clicks anywhere outside of the modal, close it\nwindow.onclick = function(event) {\n  if (event.target == modal) {\n    modal.style.display = \"none\";\n  }\n} ",
-			"settings":
-			{
-				"buffer_size": 660,
-				"line_ending": "Windows",
-				"name": "// Get the modal"
-			}
-		},
-		{
 			"contents": "\n\t/* kraft_1.css | http://localhost:8080/css/kraft_1.css */\n\n\tnav {\n\t/* display: flex; */\n\t/* flex-direction: column; */\n\tflex-direction: ;\n\tposition: absolute;\n\tbackground-color: white;\n\twidth: 100vw;\n\theight: 100vh;\n\t}\n\n\t/* Element | http://localhost:8080/kraft_1.html */\n\n\t#menu {\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: space-evenly;\n\talign-content: space-around;\n\talign-items: center;\n\twidth: 100%;\n\t}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.top {\n  align-items: center;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n#meni {\n  /* text-align: center; */\n  text-align: right;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.top > span {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n}\n\n.top > span:nth-child(2) {\n  /* justify-content: flex-end; */\n  justify-content: center;\n}\n\n/* ---- */\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n@media only screen and (max-width: 768px) {\n  nav {\n    /* display: block; */\n    /* position: relative; */\n  }\n}\n\n.responsive_nav {\n  /* display: inline-flex; */\n  /* flex-direction: column; */\n  /* justify-content: center; */\n  width: 100%;\n  height: 100%;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html# */\n\n#menu {\n  display: flex;\n  flex-direction: column;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html# */\n\n.responsive_logo {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  width: 100%;\n}\n\n/*   ----   */\n\n/* kraft_1.css | http://localhost:8080/css/kraft_1.css */\n\n.lista_jezika {\n  /* align-content: center; */\n  align-content: space-evenly;\n  align-content: space-evenly;\n}\n\n.flags {\n  margin: 1em auto;\n}\n\ngrid-template-columns: 12px 12px 12px;\ngrid-template-rows: 12px 12px 12px;\n\n\n/* kraft_1.css | http://localhost:8080/css/kraft_1.css */\n\n.kontakt_info > address {\n  justify-content: space-around;\n}\n\n/* Element | http://localhost:8080/kraft_1.html */\n\n.kontakt_info > address:nth-child(1) > p:nth-child(3) {\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n\n/* Element | http://localhost:8080/kraft_1.html */\n\n.kontakt_info > address:nth-child(1) > h3:nth-child(1) {\n  margin-bottom: 0px;\n  margin-top: 3em;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.kontakt_info > address {\n  justify-content: center;\n}\n\n/* --- */\n\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(1) {\n  height: 640px;\n  margin-right: 20px;\n  margin-left: 20px;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(3) > img:nth-child(1) {\n  width: 150px;\n  margin-top: 5rem;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(3) > p:nth-child(2) {\n  margin-left: 5rem;\n  margin-right: 5rem;\n}\n\n/* Element | file:///D:/webdev/skolakraft/kraft_1.html */\n\n.skola > article:nth-child(1) > h2:nth-child(1) {\n  /* margin-bottom: 0px; */\n  margin-bottom: .1em;\n  height: 64px;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.srednji_tekst {\n  /* max-width: 400px; */\n  max-width: 480px;\n}\n\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.skola > article:first-child {\n  min-height: 600px;\n}\n\nul {\n  font-family: 'Palanquin Thin', sans-serif;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.kontakt_info strong {\n  display: inline-block;\n  height: 1em;\n}\n\naddress {\n  font-family: Corbel;\n}\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.skola > article > img {\n  /* width: 150px; */\n  width: 120px;\n}\n\n\n/* */\n\n\nbackground: #1c92d2;  /* fallback for old browsers */\nbackground: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */\nbackground: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n\nbackground-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);\nbackground-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);\nbackground-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);\n\nbackground-image: linear-gradient( 135deg, #FFDB01 10%, #0E197D 100%);\n\n#53a495\n#ff4422\n\n/* Toggle between adding and removing the \"responsive\" class to topnav when the user clicks on the icon */\nfunction myFunction() {\n  var x = document.getElementById(\"myTopnav\");\n  if (x.className === \"topnav\") {\n\tx.className += \" responsive\";\n  } else {\n\tx.className = \"topnav\";\n  }\n}\n\n/* *** */\n\n\n.subheader > h1 {\n\tfont-size: 72px;\n\tfont-family: \"Roboto Slab Light\";\n\tmargin-top: 0;\n\tline-height: 72px;\n\tmax-width: 300px;\n}\n\n.srednji_tekst {\n\tline-height: 36px;\n\tfont-size: 24px;\n\tfont-family: \"Roboto Slab Thin\";\n\tmax-width: 480px;\n\tmargin-top: 0;\n\n\t/*margin-left: 8.3%;\n\talign-self: center;*/\n}\n\n.subheader > span {\n\tline-height: 40px;\n\tfont-size: 28px;\n\tfont-family: \"Corbel Regular\", sans-serif;\n}\n\n.subheader > span > p {\n\tmargin: 0;\n\t/*text-decoration: underline;*/\n\tfont-family: \"Corbel Light\", sans-serif;\n}\n\n.subheader > span > a {\n\ttext-decoration: underline;\n}\n\n\n/* */\n\n\n\n/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */\n\n.subheader {\n  /* height: 100vh; */\n  height: 100%;\n  min-height: 800px;\n}\n\n\n",
 			"settings":
 			{
@@ -452,10 +443,11 @@
 			}
 		},
 		{
-			"contents": "(function () {\n  var Nav;\n\n  Nav = {\n    init: function () {\n      this.setup();\n      return this.uiBind();\n    },\n    setup: function () {\n      return $('#mainnav').find('li:not(:last-child)').toggleClass('invisible');\n    },\n    uiBind: function () {\n      return $(document).on('click', '#mainnav', function (e) {\n        e.preventDefault();\n        return $(this).find('li:not(:last-child)').toggleClass('animate').toggleClass('invisible');\n      });\n    } };\n\n\n  Nav.init();\n\n}).call(this);\n\n//\n\n(function () {\n  var Nav;\n\n  Nav = {\n    init: function () {\n      this.setup();\n      return this.uiBind();\n    },\n    setup: function () {\n      return $('#menu').find('li:not(:last-child)').toggleClass('invisible');\n    },\n    uiBind: function () {\n      return $(document).on('click', '#menu', function (e) {\n        e.preventDefault();\n        return $(this).find('li:not(:last-child)').toggleClass('animate').toggleClass('invisible');\n      });\n    } };\n\n\n  Nav.init();\n\n}).call(this);\n\n///\n\n[environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')\n\nfunction(e) {\n  e.preventDefault(),\n  p.isProfileExpanded() ? p.collapseProfile() : p.expandProfile(),\n  p.focusedLinkIndex = 0\n}\n\n//\n\n$('li.dropdown.mega-dropdown a').on('click', function (event) {\n    $(this).parent().toggleClass(\"open\");\n});\n\n$('body').on('click', function (e) {\n    if (!$('li.dropdown.mega-dropdown').is(e.target) && $('li.dropdown.mega-dropdown').has(e.target).length === 0 && $('.open').has(e.target).length === 0) {\n        $('li.dropdown.mega-dropdown').removeClass('open');\n    }\n});\n\n//\n\n",
+			"file": "js/kraft-js-code-snippets.js",
 			"settings":
 			{
-				"buffer_size": 1609,
+				"buffer_size": 4945,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -496,7 +488,8 @@
 	},
 	"expanded_folders":
 	[
-		"/D/webdev/skolakraft"
+		"/D/webdev/skolakraft",
+		"/D/webdev/skolakraft/js"
 	],
 	"file_history":
 	[
@@ -640,10 +633,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -652,15 +645,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12132,
+						"buffer_size": 9786,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9786,
+								9786
 							]
 						],
 						"settings":
@@ -670,10 +663,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3618.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -699,10 +692,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1541.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -735,7 +728,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -764,7 +757,7 @@
 						"translation.y": 11969.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -793,45 +786,17 @@
 						"translation.y": 3429.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 660,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								660,
-								660
-							]
-						],
-						"settings":
-						{
-							"auto_name": "// Get the modal",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
@@ -854,39 +819,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4410.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
+					"file": "js/kraft-js-code-snippets.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1609,
+						"buffer_size": 4945,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1609,
-								1609
+								4945,
+								4945
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 486.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

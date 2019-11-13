@@ -213,7 +213,7 @@ strong {
 	flex-grow: 2;
 }*/
 
-/* Navigation manu */
+/* Navigation menu */
 
 nav {
 	/*display: grid;
@@ -306,7 +306,7 @@ nav li:hover {
 	margin-top: 200px;
 	/*width: 100vw;
 	height: 100vh;*/
-	background-image: url(../img/knjige_pozadina.jpg);
+	background-image: url(../img/skola_stranih_jezika_naslovna.jpg);
 	background-size: cover; 
 	background-position: center;
 	/*background-attachment: fixed;*/
@@ -448,7 +448,15 @@ main article {
 
 .upis_tekst > article > img {
 	display: block;
-	margin: 2em auto;
+	margin: 1rem auto;
+}
+
+.upis_polaznika {
+	margin-bottom: 0;
+}
+
+.firme_i_ustanove {
+	margin-top: 0;
 }
 
 /* Jezici */
@@ -654,6 +662,10 @@ main article {
 	height: 100%;
 }
 
+.kursevi_tekst {
+	/*margin-top: 0;*/
+}
+
 /*  **FOOTER**  */
 
 .footer {
@@ -672,19 +684,8 @@ main article {
 	flex-shrink: 1;
 }*/
 
-.kontakt_info {
-	text-align: center;
-	background-color: #f5f7f6;
-	display: grid;
-	
-	grid-template-columns: 50% 50%;
-	/*grid-template-rows: 50% 50%;*/
-	
-	/*grid-auto-rows: 1fr;*/
-	
-	justify-content: center;
-	justify-items: end;
-	
+.kontakt {
+	margin-top: 1.3rem;
 }
 
 .kontakt > h2 {
@@ -698,6 +699,21 @@ main article {
 	background-color: #5498ab;
 	font-family: "Roboto Slab";
 
+}
+
+.kontakt_info {
+	text-align: center;
+	background-color: #f5f7f6;
+	display: grid;
+	
+	grid-template-columns: 50% 50%;
+	/*grid-template-rows: 50% 50%;*/
+	
+	/*grid-auto-rows: 1fr;*/
+	
+	justify-content: center;
+	justify-items: end;
+	
 }
 
 /*.kontakt_info > address {

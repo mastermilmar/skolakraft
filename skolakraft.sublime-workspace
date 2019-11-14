@@ -387,16 +387,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10080,
+				"buffer_size": 10083,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/kraft_1.css",
+			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 17814,
+				"buffer_size": 17725,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -446,10 +446,12 @@
 	},
 	"expanded_folders":
 	[
-		"/D/webdev/skolakraft"
+		"/D/webdev/skolakraft",
+		"/D/webdev/skolakraft/css"
 	],
 	"file_history":
 	[
+		"/D/webdev/skolakraft/css/kraft_1.css",
 		"/C/Users/misabrzi/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
 		"/D/webdev/ostali/Time.is.html",
 		"/D/webdev/ostali/time.is.html",
@@ -578,15 +580,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10080,
+						"buffer_size": 10083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15,
-								15
+								0,
+								0
 							]
 						],
 						"settings":
@@ -599,7 +601,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -610,19 +612,19 @@
 			[
 				{
 					"buffer": 1,
-					"file": "css/kraft_1.css",
+					"file": "css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17814,
+						"buffer_size": 17725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10710,
-								10710
+								780,
+								780
 							]
 						],
 						"settings":
@@ -631,10 +633,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12208.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -710,7 +712,7 @@
 		"cols":
 		[
 			0.0,
-			0.379672006101,
+			0.476353928298,
 			0.78337147216,
 			1.0
 		],
@@ -771,7 +773,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

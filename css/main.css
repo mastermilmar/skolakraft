@@ -492,6 +492,8 @@ main article {
 	border-color: white;
 	border-radius: 50%;
 */
+
+	border-radius: 50%;
 }
 
 .flags > a {
@@ -541,7 +543,7 @@ main article {
 /* */
 
 #nemacki {
-	background: url(../flags/germany-flag-round-edge-w.png);
+	background: url(../flags/germany-flag-square-xs.png);
 	background-size: contain;
 }
 

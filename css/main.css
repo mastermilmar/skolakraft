@@ -487,6 +487,11 @@ main article {
 	vertical-align: middle;
 	margin: 1em auto;
 
+/*	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;
+*/
 }
 
 .flags > a {
@@ -536,7 +541,7 @@ main article {
 /* */
 
 #nemacki {
-	background: url(../flags/germany-flag-round-xs.png);
+	background: url(../flags/germany-flag-round_300.png);
 	background-size: contain;
 }
 
@@ -566,7 +571,8 @@ main article {
 }
 
 #slovenacki {
-	background: url(../flags/slovenia-flag-round-xs.png);
+	/*background: url(../flags/slovenia-flag-round_Illustrator_minimised.svg);*/
+	background: url(../flags/slovenia-flag-round_300.png);
 	background-size: contain;
 }
 

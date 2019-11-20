@@ -486,6 +486,7 @@ main article {
 	align-items: center;
 	vertical-align: middle;
 	margin: 1em auto;
+
 }
 
 .flags > a {
@@ -494,6 +495,7 @@ main article {
 	height: inherit;
 	border-radius: 50%;
 }
+
 
 .jezik_naziv {
 	/*margin-top: 3rem;*/
@@ -505,6 +507,11 @@ main article {
 	background-color: rgba(84,152,171,0.5);
 	border-radius: 50%;
 	display: none;
+
+	margin: 0;
+	width: 100%;
+	height: 100%;
+
 }
 
 .flags > a:hover .jezik_naziv {
@@ -524,14 +531,53 @@ main article {
 }
 */
 
-.flags p {
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	
-}
+
+
+/* */
 
 #nemacki {
+	background: url(../flags/germany-flag-round-xs.png);
+	background-size: contain;
+}
+
+#engleski {
+	background: url(../flags/united-kingdom-flag-round-xs.png);
+	background-size: contain;
+}
+
+#francuski {
+	background: url(../flags/france-flag-round-xs.png);
+	background-size: contain;
+}
+
+#italijanski {
+	background: url(../flags/italy-flag-round-xs.png);
+	background-size: contain;
+}
+
+#spanski {
+	background: url(../flags/spain-flag-round-xs.png);
+	background-size: contain;
+}
+
+#ruski {
+	background: url(../flags/russia-flag-round-xs.png);
+	background-size: contain;
+}
+
+#slovenacki {
+	background: url(../flags/slovenia-flag-round-xs.png);
+	background-size: contain;
+}
+
+#norveski {
+	background: url(../flags/norway-flag-round-xs.png);
+	background-size: contain;
+}
+
+/* */
+
+/*#nemacki {
 	background: url(../img/germany.png);
 }
 
@@ -561,7 +607,7 @@ main article {
 
 #norveski {
 	background: url(../img/norway.png);
-}
+}*/
 
 /* O Školi */
 

@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"background-",
+				"background-repeat\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"border-",
+				"border-style\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"backgrou",
+				"background-size\tproperty"
+			],
+			[
 				"margin",
 				"margin-top\tproperty"
 			],
@@ -58,10 +90,6 @@
 			[
 				"min",
 				"min-height\tproperty"
-			],
-			[
-				"co",
-				"content\tproperty"
 			],
 			[
 				"no",
@@ -224,10 +252,6 @@
 				"section\tTag"
 			],
 			[
-				"backgrou",
-				"background-color\tproperty"
-			],
-			[
 				"grid",
 				"grid-column\tproperty"
 			],
@@ -246,10 +270,6 @@
 			[
 				"grid-a",
 				"grid-auto-rows\tproperty"
-			],
-			[
-				"background-",
-				"background-origin\tproperty"
 			],
 			[
 				"spac",
@@ -294,10 +314,6 @@
 			[
 				"rg",
 				"rgba()\tbackground-color"
-			],
-			[
-				"back",
-				"background-color\tproperty"
 			],
 			[
 				"mar",
@@ -396,7 +412,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 17725,
+				"buffer_size": 18891,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -599,10 +615,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1458.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -617,15 +633,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17725,
+						"buffer_size": 18891,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								8452,
+								8452
 							]
 						],
 						"settings":
@@ -634,10 +650,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8716.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -761,7 +777,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

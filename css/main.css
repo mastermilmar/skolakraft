@@ -444,6 +444,8 @@ main article {
 .upis_tekst > article > img {
 	display: block;
 	margin: 1rem auto;
+	width: 150px;
+	height: 150px;
 }
 
 .upis_polaznika {
@@ -496,6 +498,10 @@ main article {
 	border-radius: 50%;
 	-webkit-border-radius: 75px;
 
+/*	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+*/
 }
 
 .flags > a {
@@ -738,6 +744,13 @@ main article {
 	/*margin-top: 0;*/
 }
 
+.kursevi_tekst img {
+	display: block;
+	margin: 1rem auto;
+	width: 150px;
+	height: 150px;
+}
+
 /*  **FOOTER**  */
 
 .footer {
@@ -889,6 +902,11 @@ address > em {
 .social_links a {
 	
 	margin: 2em 1rem;
+}
+
+.social_links img {
+	width: 60px;
+	height: 60px;
 }
 
 .footer {

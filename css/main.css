@@ -546,7 +546,7 @@ main article {
 #nemacki {
 	background-image: url(../flags/germany-flag-square-xs.png);
 	background-image: url(../flags/germany-flag-round_inkscape.svg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }	
 
@@ -554,7 +554,7 @@ main article {
 	background-image: url(../flags/united-kingdom-flag-square-xs.png);
 	background-image: url(../flags/united-kingdom-flag-round_inkscape.svg);
 	/*background-image: url(../flags/united-kingdom-flag-round-xs.png);*/
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -562,7 +562,7 @@ main article {
 	background-image: url(../flags/france-flag-square-xs.png);
 	background-image: url(../flags/france-flag-round_inkscape.svg);
 	/*background-image: url(../flags/france-flag-round-xs.png);*/
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -570,7 +570,7 @@ main article {
 	background-image: url(../flags/italy-flag-square-xs.png);
 	background-image: url(../flags/italy-flag-round_inkscape.svg);
 	/*background-image: url(../flags/italy-flag-round-xs.png);*/
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -578,7 +578,7 @@ main article {
 	background-image: url(../flags/spain-flag-square-xs.png);
 	background-image: url(../flags/spain-flag-round_inkscape.svg);
 	/*background-image: url(../flags/spain-flag-round-xs.png);*/
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -586,7 +586,7 @@ main article {
 	background-image: url(../flags/russia-flag-square-xs.png);
 	background-image: url(../flags/russia-flag-round_inkscape.svg);
 	/*background-image: url(../flags/russia-flag-round-xs.png);*/
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -594,7 +594,7 @@ main article {
 	background-image: url(../flags/slovenia-flag-square-xs.png);
 	background-image: url(../flags/slovenia-flag-round_inkscape.svg);
 	/*background-image: url(../flags/slovenia-flag-round_300.png);*/
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -602,7 +602,7 @@ main article {
 	background-image: url(../flags/norway-flag-square-xs.png);
 	background-image: url(../flags/norway-flag-round_inkscape.svg);
 	/*background-image: url(../flags/norway-flag-round-xs.png);*/
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 

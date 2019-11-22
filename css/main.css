@@ -544,55 +544,63 @@ main article {
 /* */
 
 #nemacki {
-	background-image: url(../flags/germany-flag-square-xs.png), url(../flags/germany-flag-round_inkscape.svg);
+	background-image: url(../flags/germany-flag-square-xs.png);
+	background-image: url(../flags/germany-flag-round_inkscape.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }	
 
 #engleski {
-	background-image: url(../flags/united-kingdom-flag-square-xs.png), url(../flags/united-kingdom-flag-round_inkscape.svg);
+	background-image: url(../flags/united-kingdom-flag-square-xs.png);
+	background-image: url(../flags/united-kingdom-flag-round_inkscape.svg);
 	/*background-image: url(../flags/united-kingdom-flag-round-xs.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #francuski {
-	background-image: url(../flags/france-flag-square-xs.png), url(../flags/france-flag-round_inkscape.svg);
+	background-image: url(../flags/france-flag-square-xs.png);
+	background-image: url(../flags/france-flag-round_inkscape.svg);
 	/*background-image: url(../flags/france-flag-round-xs.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #italijanski {
-	background-image: url(../flags/italy-flag-square-xs.png), url(../flags/italy-flag-round_inkscape.svg);
+	background-image: url(../flags/italy-flag-square-xs.png);
+	background-image: url(../flags/italy-flag-round_inkscape.svg);
 	/*background-image: url(../flags/italy-flag-round-xs.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #spanski {
-	background-image: url(../flags/spain-flag-square-xs.png), url(../flags/spain-flag-round_inkscape.svg);
+	background-image: url(../flags/spain-flag-square-xs.png);
+	background-image: url(../flags/spain-flag-round_inkscape.svg);
 	/*background-image: url(../flags/spain-flag-round-xs.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #ruski {
-	background-image: url(../flags/russia-flag-square-xs.png), url(../flags/russia-flag-round_inkscape.svg);
+	background-image: url(../flags/russia-flag-square-xs.png);
+	background-image: url(../flags/russia-flag-round_inkscape.svg);
 	/*background-image: url(../flags/russia-flag-round-xs.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #slovenacki {
-	background-image: url(../flags/slovenia-flag-square-xs.png), url(../flags/slovenia-flag-round_inkscape.svg);
+	background-image: url(../flags/slovenia-flag-square-xs.png);
+	background-image: url(../flags/slovenia-flag-round_inkscape.svg);
 	/*background-image: url(../flags/slovenia-flag-round_300.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #norveski {
-	background-image: url(../flags/norway-flag-square-xs.png), url(../flags/norway-flag-round_inkscape.svg);
+	background-image: url(../flags/norway-flag-square-xs.png);
+	background-image: url(../flags/norway-flag-round_inkscape.svg);
 	/*background-image: url(../flags/norway-flag-round-xs.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;

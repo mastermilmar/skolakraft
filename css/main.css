@@ -6,6 +6,10 @@ html {
 	/*height: 100%;*/
 }
 
+::before, ::after {
+	box-sizing: border-box;
+}
+
 /* Fonts */
 
 /*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');*/
@@ -105,6 +109,7 @@ a:active {
 
 body {
 	/*height: 100%;*/
+	box-sizing: border-box;
 	margin: 0 auto;
 	width: 100%;
 	/*line-height: 2rem;*/
@@ -297,10 +302,11 @@ nav li:hover {
 	z-index: -4;*/
 	display: block;
 	width: 100%;
-	height: 100%;
-	margin-top: 200px;
-	/*width: 100vw;
-	height: 100vh;*/
+	/*height: 100%;*/
+	padding-top: 200px;
+	/*margin-top: 200px;*/
+	/*width: 100vw;*/
+	/*height: 100vh;*/
 	background-image: url(../img/skola_stranih_jezika_naslovna.jpg);
 	background-size: cover; 
 	background-position: center;
@@ -1047,7 +1053,8 @@ address > em {
 
 	.background_image {
 		/* margin-top: 200px; */
-		margin-top: 120px;
+		padding-top: 120px;
+		/*margin-top: 120px;*/
 	}
 
 	.subheader > h1 {
@@ -1058,7 +1065,7 @@ address > em {
 	}
 
 	.subheader > span {
-		margin: auto 1.3rem;
+		margin: 2rem 1.3rem;
 		line-height: 40px;
 		font-size: 28px;
 		/*font-family: "Corbel Regular", sans-serif;*/

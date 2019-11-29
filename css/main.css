@@ -307,12 +307,18 @@ nav li:hover {
 	/*margin-top: 200px;*/
 	/*width: 100vw;*/
 	/*height: 100vh;*/
-	background-image: url(../img/skola_stranih_jezika_naslovna.jpg);
-	background-size: cover; 
-	background-position: center;
+
+	/*background-image: url(../img/skola_stranih_jezika_naslovna.jpg);*/
+	/*background-size: cover;*/
+	/*background-position: center;*/
 	/*background-attachment: fixed;*/
+
 	background-repeat: no-repeat;
 	background-origin: content-box;
+
+	background-image: url(../img/baner_kraft.png);
+	background-position: bottom;
+
 }
 
 /*.subheader {
@@ -1045,8 +1051,8 @@ address > em {
 
 	.subheader {
 		/* flex-flow: row; */
-		/* justify-content: space-between; */
-		/* align-items: flex-start; */
+		justify-content: flex-start;
+		align-items: flex-start;
 		/* height: 100vh; */
 		flex-flow: column;
 	}
@@ -1055,6 +1061,7 @@ address > em {
 		/* margin-top: 200px; */
 		padding-top: 120px;
 		/*margin-top: 120px;*/
+		height: 1100px;
 	}
 
 	.subheader > h1 {

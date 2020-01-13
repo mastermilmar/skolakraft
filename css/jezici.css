@@ -1,10 +1,10 @@
 .jezik-naslov {
-	margin-top: 200px;
-	height: 200px;
+	margin-top: 120px;
+	height: 400px;
 	display: flex;
 	flex-direction: row;
 	align-content: flex-start;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .jezik-naslov > div {
@@ -12,13 +12,31 @@
 }
 
 .jezik-naslov > div:nth-child(2) {
-	padding: 1.5em;
+	
+	/*width: 50%;*/
+	/*height: 100%;*/
 	width: 50%;
-	height: 100%;
+	padding-left: 3em;
+	box-sizing: border-box;
 }
 
 .jezik-naslov > div:nth-child(2) > img {
 	height: 50%;
+}
+
+.jezik-naslov > div > h1 {
+	font-size: 60px;
+	font-family: "Roboto Slab Light";
+	margin: 0 0 .1em 0;
+}
+
+.jezik-naslov > div:nth-child(1) > p:nth-child(2) {
+	margin: 0;
+	font-family: roboto slab light;
+}
+
+.jezik-naslov > div:nth-child(2) > img:nth-child(1) {
+	height: 150px;
 }
 
 .jezik-podnaslov {
@@ -28,7 +46,7 @@
 }
 
 .kursevi-jezika-uvod {
-	
+	width: 50%;
 }
 
 .kursevi-jezika-uvod:before {
@@ -41,16 +59,31 @@
 }
 
 .kursevi-jezika-uvod > div {
-	padding: 1em;
+	padding: 2em;
 	background-color: #f7f9f8;
 }
 
 .ucenje-jezika-uvod {
-	
+	width: 50%;
 }
 
 .ucenje-jezika-uvod > div {
-	padding: 1em;
+	padding: 0 2em;
+}
+
+.ucenje-jezika-uvod > div > h3 {
+	margin: 0;
+}
+
+/* Element | http://localhost:8080/nemacki.html */
+
+.ucenje-jezika-uvod > div:nth-child(1) > h3:nth-child(1) {
+  font-size: 43px;
+}
+
+.kursevi-jezika-uvod > div:nth-child(1) > h3:nth-child(1) {
+  font-size: 41px;
+  margin: 0;
 }
 
 /* --- */
@@ -58,6 +91,27 @@
 .tecajevi {
 	background-color: #f7f9f8;
 	
+}
+
+.tecajevi-naslov {
+	font-family: "Roboto Slab Light";
+	font-size: 60px;
+	margin: 2em .8em;
+}
+
+.tecajevi-zaglavlje {
+	/*margin: 1em;*/
+	padding: 1em 2em;
+}
+
+.tecajevi-zaglavlje > h3 {
+	font-size: 41px;
+	width: 250px;
+	margin: 1em 0;
+}
+
+.tecaj-zaglavlje > p {
+	margin: 0 1.5em;
 }
 
 .tecaj-wrap {
@@ -105,20 +159,23 @@
 }
 
 .tecaj-box-1 {
+	box-sizing: border-box;
 	display: flex;
 	flex-grow: 1;
 	flex-flow: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
 	width: 560px;
 	height: 540px;
 	margin: 1rem;
-	
+	padding: 1em;
 	background-color: white;
-	text-align: center;
-	
+	text-align: left;
+
 }
 
+/*
 .clearfix:after {
 	content: " ";
 	display: block;
@@ -126,45 +183,130 @@
 	visibility: hidden;
 	clear: both;
 }
+*/
 
 /* --- */
 
-.detalji {
+.footer-navigacija {
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
 	
 }
 
-.detalji > div {
+.footer-navigacija > div {
 	width: 100%;
-
 }
 
-.detalji h3 {
+/* */
+.footer-navigacija h3 {
 	margin: 0 0 .5em 0;
 	font-size: 1.6em;
 }
 
-.detalji > div:nth-child(1) {
+/* futer levo */
+
+.footer-navigacija-levo {
 	background-color: #dae8eb;
 	display: flex;
 	justify-content: flex-end;
-	min-width: 500px;
-	height: 428px;
-}
-.detalji > div:nth-child(2) {
-	background-color: #5498ab;
-	display: flex;
-	justify-content: flex-start;
-	min-width: 500px;
+	width: 600px;
 	height: 428px;
 }
 
-.detalji > div > div {
-	width: 600px;
-	padding: 80px;
+.footer-navigacija-levo > div {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	margin-right: 30%;
+	/*width: 600px;*/
+}
+
+.kraft-levo {
 	box-sizing: border-box;
+	/*display: inline-flex;*/
+	/*width: 600px;*/
+	font-style: normal;
+	/*margin: 1.3rem 7rem;*/
+	font-family: Corbel;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.kraft-levo > em {
+	font-style: normal;
+}
+
+.kraft-levo strong {
+	font-size: 3em;
+	font-weight: lighter;
+	display: inline-block;
+	height: 1em;
+}
+
+.kraft-levo > em > b {
+	width: 100%;
+	display: inline-block;
+	font-size: initial;
+}
+
+/*
+.kontakt_info > address > em > p {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.kontakt_info p {
+	font-size: 1em;
+	margin: 0;
+}
+*/
+
+.kraft-footer-linkovi {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	height: 150px;
+}
+
+/* futer desno */
+
+.footer-navigacija-desno {
+	background-color: #5498ab;
+	display: flex;
+	justify-content: flex-start;
+	width: 600px;
+	height: 428px;
+}
+
+.jezici-link {
+	display: flex;
+	flex-direction: row;
+	margin: 1em;
+	/*width: 600px;	*/
+}
+
+.jezici-link > div {
+	/*flex-grow: 1;*/
+	width: 300px;
+}
+
+.jezici-link > div > p {
+	text-align: center;
+	font-family: Corbel;
+	font-size: 1.5em;
+	margin: .5rem 1rem;
+}
+
+.jezik-link > div:nth-cild(1) {
+	justify-content: flex-end;
+}
+
+.jezici-link > div > ul > li a {
+	color: white;
 }
 
 @media only screen and (max-width: 768px) {

@@ -190,6 +190,8 @@ strong {
 	align-items: center;
 	/*flex-shrink: 1;*/
 	/*flex-wrap: wrap;*/
+	backdrop-filter: saturate(180%) blur(20px);
+	background-color: rgba(255,255,255,0.72)
 	
 }
 
@@ -227,6 +229,8 @@ nav {
 	/*flex-wrap: wrap;*/
 	/*margin-top: 1rem;
 	margin-bottom: 1rem;*/
+	backdrop-filter: saturate(180%) blur(20px);
+	background-color: rgba(255,255,255,0.72);
 
 }
 

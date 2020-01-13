@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"flex-start\talign-items"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"d",
+				"div\t<div>"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"align-",
+				"align-self\tproperty"
+			],
+			[
+				"padi",
+				"padding\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"flex",
+				"flex-flow\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"in",
+				"inline-flex\tdisplay"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"con",
+				"content\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
 				"max",
 				"max-width\tproperty"
 			],
@@ -24,24 +88,8 @@
 				"text-align\tproperty"
 			],
 			[
-				"align",
-				"align-items\tproperty"
-			],
-			[
 				"alig",
 				"align-self\tproperty"
-			],
-			[
-				"padi",
-				"padding-top\tproperty"
-			],
-			[
-				"margin",
-				"margin-right\tproperty"
-			],
-			[
-				"back",
-				"background-size\tproperty"
 			],
 			[
 				"fl",
@@ -56,20 +104,12 @@
 				"padding-top\tproperty"
 			],
 			[
-				"pad",
-				"padding-top\tproperty"
-			],
-			[
 				"border",
 				"border-width\tproperty"
 			],
 			[
 				"wid",
 				"width\tproperty"
-			],
-			[
-				"bac",
-				"background-image\tproperty"
 			],
 			[
 				"background-",
@@ -136,10 +176,6 @@
 				"Light"
 			],
 			[
-				"fon",
-				"font-variant\tproperty"
-			],
-			[
 				"b",
 				"br\t<br>"
 			],
@@ -160,15 +196,7 @@
 				"margin\tproperty"
 			],
 			[
-				"ali",
-				"align-items"
-			],
-			[
 				"fle",
-				"flex-direction\tproperty"
-			],
-			[
-				"flex",
 				"flex-direction\tproperty"
 			],
 			[
@@ -182,10 +210,6 @@
 			[
 				"di",
 				"display\tproperty"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"te",
@@ -228,10 +252,6 @@
 				"iframe\tTag"
 			],
 			[
-				"in",
-				"inline-block\tdisplay"
-			],
-			[
 				"text-",
 				"text-decoration\tproperty"
 			],
@@ -268,10 +288,6 @@
 				"width\tproperty"
 			],
 			[
-				"s",
-				"space-around\tjustify-content"
-			],
-			[
 				"div",
 				"div\tTag"
 			],
@@ -290,10 +306,6 @@
 			[
 				"grid-co",
 				"grid-column-start\tproperty"
-			],
-			[
-				"con",
-				"align-content\tproperty"
 			],
 			[
 				"inl",
@@ -427,16 +439,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11711,
+				"buffer_size": 11817,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/.snippets.css",
+			"file": "nemacki.html",
 			"settings":
 			{
-				"buffer_size": 10161,
+				"buffer_size": 7741,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/jezici.css",
+			"settings":
+			{
+				"buffer_size": 1809,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -492,7 +513,10 @@
 	],
 	"file_history":
 	[
+		"/D/webdev/skolakraft/css/jezici.css",
 		"/D/webdev/skolakraft/css/.snippets.css",
+		"/D/webdev/skolakraft/nemacki.html",
+		"/C/Users/misabrzi/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
 		"/D/webdev/skolakraft/icons/adresa.svg",
 		"/D/webdev/skolakraft/icons/firme_i_ustanove_mod-1.svg",
 		"/D/webdev/skolakraft/icons/trajanje_mod-1.svg",
@@ -512,7 +536,6 @@
 		"/D/webdev/skolakraft/js/kraft-js-code-snippets.js",
 		"/D/webdev/skolakraft/web_dev-master/css/style.css",
 		"/D/webdev/skolakraft/web_dev-master/index.htm",
-		"/C/Users/misabrzi/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
 		"/D/webdev/template_blue.css",
 		"/D/webdev/test/test2.css",
 		"/D/github/f9b/README.md",
@@ -628,7 +651,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -637,15 +660,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11711,
+						"buffer_size": 11817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3108,
-								3108
+								1702,
+								1702
 							]
 						],
 						"settings":
@@ -655,39 +678,41 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1188.0,
+						"translation.y": 1584.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/.snippets.css",
+					"file": "nemacki.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10161,
+						"buffer_size": 7741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9315,
-								9315
+								2944,
+								2944
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 9711.0,
+						"translation.x": 122.0,
+						"translation.y": 950.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -698,6 +723,34 @@
 			[
 				{
 					"buffer": 2,
+					"file": "css/jezici.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "css/main.css",
 					"semi_transient": false,
 					"settings":
@@ -709,8 +762,8 @@
 						"selection":
 						[
 							[
-								6187,
-								6187
+								9469,
+								9469
 							]
 						],
 						"settings":
@@ -719,10 +772,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 10187.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

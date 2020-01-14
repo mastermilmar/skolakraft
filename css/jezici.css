@@ -11,20 +11,21 @@
     width: 50%;
 }
 
-.jezik-naslov>div:nth-child(2) {
+.jezik-naslov > div:nth-child(2) {
 
     /*width: 50%;*/
     /*height: 100%;*/
     width: 50%;
-    padding-left: 3em;
+    /*padding-left: 3em;*/
+    /*margin-left: 3em;*/
     box-sizing: border-box;
 }
 
-.jezik-naslov>div:nth-child(2)>img {
+.jezik-naslov > div:nth-child(2) > img {
     height: 50%;
 }
 
-.jezik-naslov>div>h1 {
+.jezik-naslov > div > h1 {
     font-size: 60px;
     font-family: "Roboto Slab Light";
     margin: 0 0 .1em 0;
@@ -35,8 +36,9 @@
     font-family: roboto slab light;
 }
 
-.jezik-naslov>div:nth-child(2)>img:nth-child(1) {
+.jezik-naslov > div:nth-child(2) > img:nth-child(1) {
     height: 150px;
+    margin-left: 3em;
 }
 
 .jezik-podnaslov {
@@ -121,7 +123,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
-    padding: 1em 0;
+    /*padding: 1em 0;*/
 
 }
 
@@ -140,10 +142,35 @@
 
 }
 
+.tecaj-box > h4 {
+	font-family: 'Palanquin Thin', sans-serif;
+	font-size: 36px;
+}
 
-.tecaj-box>img {
+.tecaj-box > div {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.tecaj-box > div > h4 {
+	font-family: 'Palanquin Thin', sans-serif;
+	font-size: 36px;
+	margin: 0;
+}
+
+.tecaj-box > div > p {
+	/*width: 50%;*/
+	margin: 0;
+}
+
+.tecaj-box > p {
+	width: 55%;
+}
+
+.tecaj-box > img {
     display: block;
-    width: 30%;
+    width: 180px;
 
 }
 
@@ -154,7 +181,8 @@
     /*flex-grow: 1;*/
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1em 0;
+    /*padding: 1em 0;*/
+    padding-bottom: 1em;
 
 }
 
@@ -368,22 +396,29 @@
         text-align: center;
     }
 
-    .jezik-naslov>div:nth-child(2) {
-        /* padding-left: 3em; */
-        /*align-content: center;*/
-        display: flex;
-        align-items: center;
-        /*align-self: flex-start;*/
-        /*margin: 0 0 .1em 1.5em;*/
-        padding-left: 2em;
+    .jezik-naslov > div:nth-child(2) {
+		/* padding-left: 3em; */
+		/*align-content: center;*/
+		display: flex;
+		align-items: center;
+		/*align-self: flex-start;*/
+		/*margin: 0 0 .1em 1.5em;*/
+		padding: 0;
+		margin: 1.5em;
     }
 
+    /*
     .jezik-naslov>div:nth-child(2)>img:nth-child(1) {
         display: flex;
         align-self: center;
         align-content: center;
         align-items: center;
     }
+	*/
+
+	.jezik-naslov > div:nth-child(2) > img:nth-child(1) {
+		margin: 0;
+	}
 
     .jezik-naslov > div:nth-child(1) > p:nth-child(2) {
     	margin: 1.5em 0;

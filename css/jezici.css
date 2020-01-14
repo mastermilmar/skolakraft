@@ -314,6 +314,7 @@
 
     .jezik-naslov {
         flex-wrap: wrap-reverse;
+        height: 100%;
     }
 
     .jezik-podnaslov {

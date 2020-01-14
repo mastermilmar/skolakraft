@@ -469,7 +469,8 @@ main article {
 	margin-left: 5%;
 	margin-top: auto;
 	margin-bottom: auto;
-	font-family: "Roboto Slab";
+	font-family: "Roboto Slab Light";
+	font-size: 60px;
 }
 
 .upis_tekst {
@@ -741,7 +742,8 @@ main article {
 .skola article h2 {
 	display: inline-block;
 	margin: 2rem 5rem;
-	font-family: "Roboto Slab";
+	font-family: "Roboto Slab Light";
+	font-size: 60px;
 }
 
 /*.skola article {
@@ -753,7 +755,7 @@ main article {
 
 .kursevi {
 	display: grid;
-	grid-template-columns: 20% 40% 40%;
+	grid-template-columns: 30% 35% 35%;
 
 }
 
@@ -820,7 +822,8 @@ main article {
 	margin: 0;
 	padding: 1em 0;
 	background-color: #5498ab;
-	font-family: "Roboto Slab";
+	font-family: "Roboto Slab Light";
+	font-size: 60px;
 
 }
 

@@ -118,9 +118,9 @@
 
 .tecaj-wrap {
     display: flex;
-    /*flex-direction: row;*/
-    flex-flow: row;
-    justify-content: space-between;
+    flex-direction: row;
+    /*flex-flow: row;*/
+    /*justify-content: space-between;*/
     flex-wrap: wrap;
 
     /*padding: 1em 0;*/
@@ -154,7 +154,7 @@
 }
 
 .tecaj-box > div > h4 {
-	font-family: 'Palanquin Thin', sans-serif;
+	font-family: 'Roboto Slab Light', sans-serif;
 	font-size: 36px;
 	margin: 0;
 }
@@ -201,6 +201,10 @@
     background-color: white;
     text-align: left;
 
+}
+
+.tecaj-box-1 > h3 {
+	font-size: 36px;
 }
 
 /*

@@ -603,3 +603,96 @@ function myFunction() {
     margin: 2rem 1.3rem;
   }
 }
+
+
+
+
+	/*#menu-toggle-container {
+		display: block;
+	}*/
+
+	/*nav {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+		
+	}*/
+
+	/*nav > span:nth-child(2) {
+		justify-content: center;
+	}*/
+
+	
+	/* #meni {
+		display: inline-block;
+		width: 100%;
+		/*overflow: visible;*/
+	/*} */ 
+
+	/*#menu {
+		display: none;
+	}*/
+
+	/* menu label */
+
+	/*label {
+		cursor: pointer;
+	}*/
+
+	/*#menu-toggle {
+		display: inline-block;
+		right: 0;
+	}
+	*/
+	
+/*	input[type=checkbox]:checked #menu {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-content: space-around;
+		align-items: center;
+		
+		top: 100px;
+		background-color: white;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+	}
+*/
+	 
+
+	/*#menu-toggle:checked #menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-content: space-around;
+		align-items: center;
+		position: absolute;
+		top: 100px;
+		background-color: white;
+		width: 100vw;
+		height: 100vh;
+	}*/
+
+	/*#menu-toggle:checked nav {
+		display: block;
+		position: absolute;
+		background-color: white;
+		width: 100vw;
+		height: 100vh;
+	}*/
+
+	/*.flex {
+		display: flex;
+		flex-direction: column;
+	}*/
+
+	/*.grid {
+		display: grid;
+		grid-template-rows: auto 100%;
+		grid-auto-flow: row;
+	}*/

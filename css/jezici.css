@@ -1,145 +1,141 @@
 .jezik-naslov {
-    margin-top: 120px;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    align-items: center;
+	margin-top: 120px;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	align-items: center;
 }
 
 .jezik-naslov>div {
-    width: 50%;
+	width: 50%;
 }
 
 .jezik-naslov > div:nth-child(2) {
-
-    /*width: 50%;*/
-    /*height: 100%;*/
-    width: 50%;
-    /*padding-left: 3em;*/
-    /*margin-left: 3em;*/
-    box-sizing: border-box;
+	/*width: 50%;*/
+	/*height: 100%;*/
+	width: 50%;
+	/*padding-left: 3em;*/
+	/*margin-left: 3em;*/
+	box-sizing: border-box;
 }
 
 .jezik-naslov > div:nth-child(2) > img {
-    height: 50%;
+	height: 50%;
 }
 
 .jezik-naslov > div > h1 {
-    font-size: 60px;
-    font-family: "Roboto Slab Light";
-    margin: 0 0 .1em 0;
+	font-size: 60px;
+	font-family: "Roboto Slab Light";
+	margin: 0 0 .1em 0;
 }
 
 .jezik-naslov>div:nth-child(1)>p:nth-child(2) {
-    margin: 0;
-    font-family: roboto slab light;
+	margin: 0;
+	font-family: roboto slab light;
 }
 
 .jezik-naslov > div:nth-child(2) > img:nth-child(1) {
-    height: 150px;
-    margin-left: 3em;
+	height: 150px;
+	margin-left: 3em;
 }
 
 .jezik-podnaslov {
-    display: flex;
-    flex-direction: row;
-    /*height: 800px;*/
+	display: flex;
+	flex-direction: row;
+	/*height: 800px;*/
 }
 
 .kursevi-jezika-uvod {
-    width: 50%;
+	width: 50%;
 }
 
 .kursevi-jezika-uvod:before {
-    content: "";
-    display: block;
-    height: 400px;
-    background-image: url(../jezici_ikonice/brandenburg-gate.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+	content: "";
+	display: block;
+	height: 400px;
+	background-image: url(../jezici_ikonice/brandenburg-gate.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .kursevi-jezika-uvod>div {
-    padding: 2em;
-    background-color: #f7f9f8;
+	padding: 2em;
+	background-color: #f7f9f8;
 }
 
 .ucenje-jezika-uvod {
-    width: 50%;
+	width: 50%;
 }
 
 .ucenje-jezika-uvod>div {
-    padding: 0 2em;
+	padding: 0 2em;
 }
 
 .ucenje-jezika-uvod>div>h3 {
-    margin: 0;
+	margin: 0;
 }
 
 /* Element | */
 
 .ucenje-jezika-uvod>div:nth-child(1)>h3:nth-child(1) {
-    font-size: 43px;
+	font-size: 43px;
 }
 
 .kursevi-jezika-uvod>div:nth-child(1)>h3:nth-child(1) {
-    font-size: 41px;
-    margin: 0;
+	font-size: 41px;
+	margin: 0;
 }
 
 /* --- */
 
 .tecajevi {
-    background-color: #f7f9f8;
+	background-color: #f7f9f8;
 
 }
 
 .tecajevi-naslov {
-    font-family: "Roboto Slab Light";
-    font-size: 60px;
-    margin: 2em .8em;
+	font-family: "Roboto Slab Light";
+	font-size: 60px;
+	margin: 2em .8em;
 }
 
 .tecajevi-zaglavlje {
-    /*margin: 1em;*/
-    padding: 1em 2em;
+	/*margin: 1em;*/
+	padding: 1em 2em;
 }
 
 .tecajevi-zaglavlje>h3 {
-    font-size: 41px;
-    width: 250px;
-    margin: 1em 0;
+	font-size: 41px;
+	width: 250px;
+	margin: 1em 0;
 }
 
 .tecaj-zaglavlje>p {
-    margin: 0 1.5em;
+	margin: 0 1.5em;
 }
 
 .tecaj-wrap {
-    display: flex;
-    flex-direction: row;
-    /*flex-flow: row;*/
-    /*justify-content: space-between;*/
-    flex-wrap: wrap;
-
-    /*padding: 1em 0;*/
-
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*flex-flow: row;*/
+	/*justify-content: space-between;*/
+	/*padding: 1em 0;*/
 }
 
 .tecaj-box {
-    display: flex;
-    flex-grow: 1;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 360px;
-    height: 540px;
-    margin: 1rem;
+	display: flex;
+	flex-flow: column;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	width: 360px;
+	height: 460px;
+	margin: 1rem;
 
-    background-color: white;
-    text-align: center;
-
+	background-color: white;
+	text-align: center;
 }
 
 .tecaj-box > h4 {
@@ -169,37 +165,37 @@
 }
 
 .tecaj-box > img {
-    display: block;
-    width: 180px;
+	display: block;
+	width: 180px;
 
 }
 
 .tecaj-wrap-1 {
-    display: flex;
-    /*flex-direction: row;*/
-    flex-flow: row;
-    /*flex-grow: 1;*/
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /*padding: 1em 0;*/
-    padding-bottom: 1em;
+	display: flex;
+	/*flex-direction: row;*/
+	flex-flow: row;
+	/*flex-grow: 1;*/
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*padding: 1em 0;*/
+	padding-bottom: 1em;
 
 }
 
 .tecaj-box-1 {
-    box-sizing: border-box;
-    display: flex;
-    flex-grow: 1;
-    flex-flow: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    width: 560px;
-    height: 540px;
-    margin: 1rem;
-    padding: 1em;
-    background-color: white;
-    text-align: left;
+	box-sizing: border-box;
+	display: flex;
+	flex-grow: 1;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	width: 560px;
+	height: 540px;
+	margin: 1rem;
+	padding: 1em;
+	background-color: white;
+	text-align: left;
 
 }
 
@@ -220,220 +216,202 @@
 /* --- */
 
 .footer-navigacija {
-    display: flex;
-    flex-flow: row;
-    /*justify-content: center;*/
+	display: flex;
+	flex-flow: row;
+	/*justify-content: center;*/
 
 }
 
 .footer-navigacija>div {
-    width: 100%;
+	width: 100%;
 }
 
 
 /* futer levo */
 
 .footer-navigacija-levo {
-    background-color: #dae8eb;
-    display: flex;
-    justify-content: flex-end;
-    /*width: 600px;*/
-    height: 428px;
+	background-color: #dae8eb;
+	display: flex;
+	justify-content: flex-end;
+	/*width: 600px;*/
+	height: 428px;
 }
 
 .footer-navigacija-levo>div {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
-    /*margin-right: 30%;*/
-    max-width: 600px;
-    width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	/*margin-right: 30%;*/
+	max-width: 600px;
+	width: 100%;
 }
 
 .kraft-levo {
-    box-sizing: border-box;
-    /*display: inline-flex;*/
-    /*width: 600px;*/
-    font-style: normal;
-    /*margin: 1.3rem 7rem;*/
-    font-family: Corbel;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+	box-sizing: border-box;
+	/*display: inline-flex;*/
+	/*width: 600px;*/
+	font-style: normal;
+	/*margin: 1.3rem 7rem;*/
+	font-family: Corbel;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .kraft-levo>em {
-    font-style: normal;
+	font-style: normal;
 }
 
 .kraft-levo strong {
-    font-size: 3em;
-    font-weight: lighter;
-    display: inline-block;
-    height: 1em;
+	font-size: 3em;
+	font-weight: lighter;
+	display: inline-block;
+	height: 1em;
 }
 
 .kraft-levo>em>b {
-    width: 100%;
-    display: inline-block;
-    font-size: initial;
+	width: 100%;
+	display: inline-block;
+	font-size: initial;
 }
 
 
 .kraft-footer-linkovi {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    height: 150px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	height: 150px;
 }
 
 /* futer desno */
 
 .footer-navigacija-desno {
-    background-color: #5498ab;
-    display: flex;
-    height: 428px;
+	background-color: #5498ab;
+	display: flex;
+	height: 428px;
 }
 
 .footer-navigacija-desno>div {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 600px;
-    width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	max-width: 600px;
+	width: 100%;
 }
 
 .jezici-link {
-    display: flex;
-    flex-direction: row;
-    margin: 1em;
-    width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 1em;
+	width: 100%;
 }
 
-.jezici-link>div {
-    /*flex-grow: 1;*/
-    width: 50%;
+.jezici-link > div {
+	/*flex-grow: 1;*/
+	width: 50%;
 }
 
 .jezici-link>div>p {
-    text-align: center;
-    font-family: Corbel;
-    font-size: 1.5em;
-    margin: .5rem 1rem;
+	text-align: center;
+	font-family: Corbel;
+	font-size: 1.5em;
+	margin: .5rem 1rem;
 }
 
 .jezik-link>div:nth-cild(1) {
-    justify-content: flex-end;
+	justify-content: flex-end;
 }
 
 .jezici-link>div>ul>li>a {
-    color: white;
+	color: white;
 }
 
 @media only screen and (max-width: 768px) {
-    /*
-	.detalji {
-		flex-wrap: wrap;
+
+	.jezik-naslov {
+		flex-wrap: wrap-reverse;
+		height: 100%;
 	}
-	.detalji > div:nth-child(1) {
-		justify-content: center;
-	}
-	.detalji > div:nth-child(2) {
-		justify-content: center;
-	}
-	*/
 
-    .jezik-naslov {
-        flex-wrap: wrap-reverse;
-        height: 100%;
-    }
-
-    .jezik-podnaslov {
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .kursevi-jezika-uvod {
-        width: 100%;
-    }
-
-    .kursevi-jezika-uvod > div {
-    	padding: 2em 1.3em;
-    }
-
-    .ucenje-jezika-uvod {
-        width: 100%
-    }
-
-    .ucenje-jezika-uvod > div {
-    	padding: 1em 1.3em;
-    }
-
-    .tecajevi-naslov {
-    	margin: 2rem 2rem;
-    }
-
-    .tecajevi-zaglavlje {
-    	padding: 1em 1.3em;
-    }
-
-    .footer-navigacija {
-        flex-flow: column;
-    }
-
-    .footer-navigacija>div {
-        justify-content: center;
-    }
-
-    .jezici-link {
-        flex-direction: column;
-    }
-
-    .jezici-link>div {
-        width: 100%;
-    }
-
-    .jezici-link>div>ul {
-        text-align: center;
-    }
-
-    .jezik-naslov > div:nth-child(2) {
-		/* padding-left: 3em; */
-		/*align-content: center;*/
-		display: flex;
+	.jezik-podnaslov {
+		flex-flow: column;
 		align-items: center;
-		/*align-self: flex-start;*/
-		/*margin: 0 0 .1em 1.5em;*/
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.kursevi-jezika-uvod {
+		width: 100%;
+	}
+
+	.kursevi-jezika-uvod > div {
+		padding: 2em 1.3em;
+	}
+
+	.ucenje-jezika-uvod {
+		width: 100%
+	}
+
+	.ucenje-jezika-uvod > div {
+		padding: 1em 1.3em;
+	}
+
+	.tecajevi-naslov {
+		margin: 2rem 2rem;
+	}
+
+	.tecajevi-zaglavlje {
+		padding: 1em 1.3em;
+	}
+
+	.footer-navigacija {
+		flex-flow: column;
+	}
+
+	.footer-navigacija>div {
+		justify-content: center;
+	}
+
+	.jezici-link {
+		flex-direction: column;
+	}
+
+	.jezici-link>div {
+		width: 100%;
+	}
+
+	.jezici-link>div>ul {
+		text-align: center;
+	}
+
+	.jezik-naslov > div:nth-child(2) {
+		display: flex;
+		/*align-content: center;*/
+		align-items: center;
 		padding: 0;
 		margin: 1.5em;
-    }
-
-    /*
-    .jezik-naslov>div:nth-child(2)>img:nth-child(1) {
-        display: flex;
-        align-self: center;
-        align-content: center;
-        align-items: center;
-    }
-	*/
+	}
 
 	.jezik-naslov > div:nth-child(2) > img:nth-child(1) {
 		margin: 0;
+
+		/*display: flex;*/
+		/*align-self: center;*/
+		/*align-content: center;*/
+		/*align-items: center;*/
 	}
 
-    .jezik-naslov > div:nth-child(1) > p:nth-child(2) {
-    	margin: 1.5em 0;
-    }
+	.jezik-naslov > div:nth-child(1) > p:nth-child(2) {
+		margin: 1.5em 0;
+	}
 
-    .jezik-naslov > div:nth-child(1) > h1:nth-child(1) {
-    	line-height: 64px;
-    }
+	.jezik-naslov > div:nth-child(1) > h1:nth-child(1) {
+		line-height: 64px;
+	}
 
-    .jezik-naslov>div:nth-child(1) {
-        margin: .1em auto 0 1.5em;
-    }
+	.jezik-naslov>div:nth-child(1) {
+		margin: .1em auto 0 1.5em;
+	}
 
 }

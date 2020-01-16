@@ -193,7 +193,7 @@ window.onclick = function(event) {
 	</script>
  -->
 
-<!-- 	<script type="text/javascript">
+//<!-- 	<script type="text/javascript"> 
 		function hideOnClickOutside(element) {
 		const outsideClickListener = event => {
 			if (!element.contains(event.target) && isVisible(element)) { // or use: event.target.closest(selector) === null
@@ -211,6 +211,6 @@ window.onclick = function(event) {
 
 		const isVisible = elem => !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length )
 	</script>
- -->
+ //-->
 
  

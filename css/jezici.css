@@ -119,16 +119,6 @@
 
 /* Element | */
 
-/*.ucenje-jezika-uvod>div:nth-child(1)>h3:nth-child(1) {
-	font-size: 43px;
-}
-
-.kursevi-jezika-uvod>div:nth-child(1)>h3:nth-child(1) {
-	font-size: 41px;
-	margin: 0;
-}
-*/
-
 /* --- */
 
 .tecajevi {
@@ -210,6 +200,63 @@
 	display: block;
 	width: 180px;
 
+}
+
+.tecaj-box-opis {
+	/*box-sizing: border-box;*/
+	/*width: 100%;*/
+	display: flex;
+	flex-direction: row;
+	/*height: 350px;*/
+	margin: 1rem;
+	background-color: white;
+}
+
+.tecaj-box-opis > div {
+	/*flex-grow: 1;*/
+	box-sizing: border-box;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+}
+
+.tecaj-box-opis > div:first-child {
+	/*padding: 1rem;*/
+	/*align-content: center;*/
+	/*align-items: center;*/
+	justify-content: center;
+}
+
+.tecaj-box-opis > div:first-child > h3 {
+	text-align: left;
+	margin: 0;
+	/*box-sizing: content-box;*/
+	/*width: 100%;*/
+
+}
+
+.tecaj-box-opis-slika {
+	display: block;
+	/*height: 100%;*/
+	/*width: 100%;*/
+	min-height: 300px;
+	/*background-image: url(../jezici_slike/olovke_kutija.jpg);*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+
+.tbo-dete-1 {
+	background-image: url(../jezici_slike/kurs_za_decu.jpg);
+}
+
+.tbo-teen-1 {
+	background-size: contain;
+	background-position: right;
+	background-image: url(../jezici_slike/kurs_za_tinejdzere.jpg);
 }
 
 .tecaj-wrap-1 {
@@ -405,6 +452,19 @@
 
 	.tecaj-box-1 {
 		padding: 1em;
+	}
+
+	.tecaj-box-opis {
+		flex-flow: column;
+	}
+
+	.tecaj-box-opis > div {
+		width: 100%;
+		height: 50%;
+	}
+
+	.tbo-teen-1 {
+		background-size: cover;
 	}
 
 	.tecajevi-zaglavlje {

@@ -225,7 +225,7 @@
 	/*padding: 1rem;*/
 	/*align-content: center;*/
 	/*align-items: center;*/
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .tecaj-box-opis > div:first-child > h3 {
@@ -240,7 +240,7 @@
 	display: block;
 	/*height: 100%;*/
 	/*width: 100%;*/
-	min-height: 300px;
+	min-height: 500px;
 	/*background-image: url(../jezici_slike/olovke_kutija.jpg);*/
 	background-size: cover;
 	background-position: center;

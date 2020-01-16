@@ -254,8 +254,9 @@
 }
 
 .tbo-teen-1 {
-	background-size: contain;
-	background-position: right;
+	background-size: 60%;
+	background-position-x: right;
+	background-position-y: top;
 	background-image: url(../jezici_slike/kurs_za_tinejdzere.jpg);
 }
 

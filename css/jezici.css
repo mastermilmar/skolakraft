@@ -50,18 +50,58 @@
 	width: 50%;
 }
 
-.kursevi-jezika-uvod:before {
-	content: "";
+.kursevi-jezika-ilustracija {
+	/*content: "";*/
 	display: block;
 	height: 400px;
-	background-image: url(../jezici_ikonice/brandenburg-gate.jpg);
+	/*background-image: url(../jezici_slike/brandenburg-gate.jpg);*/
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
 }
 
-.kursevi-jezika-uvod>div {
+.nem-bgi {
+	background-image: url(../jezici_slike/kurs_nemackog_jezika.jpg);
+}
+
+.eng-bgi {
+	background-image: url(../jezici_slike/kurs_engleskog_jezika.jpg);
+}
+
+.fra-bgi {
+	background-image: url(../jezici_slike/kurs_francuskog_jezika.jpg);
+}
+
+.ita-bgi {
+	background-image: url(../jezici_slike/kurs_italijanskog_jezika.jpg);
+}
+
+.spa-bgi {
+	background-image: url(../jezici_slike/kurs_spanskog_jezika.jpg);
+}
+
+.rus-bgi {
+	background-image: url(../jezici_slike/kurs_ruskog_jezika.jpg);
+}
+
+.slo-bgi {
+	background-image: url(../jezici_slike/kurs_slovenackog_jezika.jpg);
+}
+
+.nor-bgi {
+	background-image: url(../jezici_slike/kurs_norveskog_jezika.jpg);
+}
+
+.kursevi-jezika-uvod>div:nth-child(2) {
 	padding: 2em;
 	background-color: #f7f9f8;
+}
+
+.kursevi-jezika-uvod>div:nth-child(2)>h3 {
+	margin: 0;
+	font-size: 41px;
 }
 
 .ucenje-jezika-uvod {
@@ -74,11 +114,12 @@
 
 .ucenje-jezika-uvod>div>h3 {
 	margin: 0;
+	font-size: 43px;
 }
 
 /* Element | */
 
-.ucenje-jezika-uvod>div:nth-child(1)>h3:nth-child(1) {
+/*.ucenje-jezika-uvod>div:nth-child(1)>h3:nth-child(1) {
 	font-size: 43px;
 }
 
@@ -86,6 +127,7 @@
 	font-size: 41px;
 	margin: 0;
 }
+*/
 
 /* --- */
 
@@ -193,7 +235,7 @@
 	width: 560px;
 	height: 540px;
 	margin: 1rem;
-	padding: 1em;
+	padding: 2em;
 	background-color: white;
 	text-align: left;
 
@@ -361,6 +403,10 @@
 		margin: 2rem 2rem;
 	}
 
+	.tecaj-box-1 {
+		padding: 1em;
+	}
+
 	.tecajevi-zaglavlje {
 		padding: 1em 1.3em;
 	}
@@ -412,6 +458,10 @@
 
 	.jezik-naslov>div:nth-child(1) {
 		margin: .1em auto 0 1.5em;
+	}
+
+	.kursevi-jezika-uvod>div:nth-child(2) {
+		padding: 1.3em;
 	}
 
 }

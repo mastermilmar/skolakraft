@@ -249,15 +249,33 @@
 	margin: 0;
 }
 
-.tbo-dete-1 {
-	background-image: url(../jezici_slike/kurs_za_decu.jpg);
+.tbo-dete-nem {
+	background-image: url(../jezici_slike/kurs_za_decu_nemacki.jpg);
 }
 
-.tbo-teen-1 {
+.tbo-dete-eng {
+	background-image: url(../jezici_slike/kurs_za_decu_engleski.jpg);
+}
+
+.tbo-teen-nem {
 	/*background-size: 60%;*/
 	background-position-x: right;
 	background-position-y: top;
-	background-image: url(../jezici_slike/kurs_za_tinejdzere.jpg);
+	background-image: url(../jezici_slike/kurs_za_tinejdzere_nemacki.jpg);
+}
+
+.tbo-teen-eng {
+	/*background-size: 60%;*/
+	background-position-x: right;
+	background-position-y: top;
+	background-image: url(../jezici_slike/kurs_za_tinejdzere_engleski.jpg);
+}
+
+.tbo-teen-fra {
+	/*background-size: 60%;*/
+	background-position-x: center;
+	background-position-y: top;
+	background-image: url(../jezici_slike/kurs_za_tinejdzere_francuski.jpg);
 }
 
 .tbo-odr-0 {

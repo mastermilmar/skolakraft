@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fle",
+				"flex-start\tjustify-content"
+			],
+			[
 				"bac",
 				"background-size\tproperty"
 			],
@@ -26,10 +30,6 @@
 			[
 				"padi",
 				"padding\tproperty"
-			],
-			[
-				"fle",
-				"flex-flow\tproperty"
 			],
 			[
 				"mar",
@@ -463,7 +463,7 @@
 			"file": "nemacki.html",
 			"settings":
 			{
-				"buffer_size": 10338,
+				"buffer_size": 10180,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -480,7 +480,7 @@
 			"file": "css/jezici.css",
 			"settings":
 			{
-				"buffer_size": 8019,
+				"buffer_size": 8050,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -712,15 +712,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10338,
+						"buffer_size": 10180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6501,
-								6501
+								6261,
+								6261
 							]
 						],
 						"settings":
@@ -728,13 +728,13 @@
 							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3051.0,
+						"translation.y": 2736.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -762,7 +762,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -777,15 +777,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8019,
+						"buffer_size": 8050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7125,
-								7125
+								3600,
+								3600
 							]
 						],
 						"settings":
@@ -795,10 +795,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3923.0,
+						"translation.y": 4069.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -886,7 +886,7 @@
 	"project": "skolakraft.sublime-project",
 	"replace":
 	{
-		"height": 106.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -920,7 +920,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

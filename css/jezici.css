@@ -254,7 +254,7 @@
 }
 
 .tbo-teen-1 {
-	background-size: 60%;
+	/*background-size: 60%;*/
 	background-position-x: right;
 	background-position-y: top;
 	background-image: url(../jezici_slike/kurs_za_tinejdzere.jpg);
@@ -462,6 +462,7 @@
 	.tecaj-box-opis > div {
 		width: 100%;
 		height: 50%;
+		padding: 2em 1em;
 	}
 
 	.tbo-teen-1 {

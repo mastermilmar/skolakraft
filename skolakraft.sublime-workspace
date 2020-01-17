@@ -463,7 +463,7 @@
 			"file": "nemacki.html",
 			"settings":
 			{
-				"buffer_size": 10180,
+				"buffer_size": 11066,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -480,18 +480,18 @@
 			"file": "css/jezici.css",
 			"settings":
 			{
-				"buffer_size": 8050,
+				"buffer_size": 9297,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Opšti Nemački kurs je za sve nivoe.\n\nZa osobe koje kreću od nule do onih koji žele da usavrše svoje znanje\njezika iz različitih razloga kao npr. posao, studije, turizam, druženje\nili jednostavno interesovanja.\n\nPoslovni Nemački\n\nKursevi poslovnog nemačkog posvećeni su firmama, radnicima, profesionalcima\ni ljudima koji traže posao kojima je potrebno usavršavanje nivoa znanja\nnemačkog jezika za potrebe posla.\n\nNemački za specifične potrebe\n\nCilj fokusiranih kurseva je da pomogne polaznicima da brzo steknu fond reči\ni fraza za primenu u različitim oblastima kao npr. turizam, ugostiteljstvo,\ntrgovina, pripreme za razgovor za posao.\n\nŠkola\n\nProgrami za osnovce omogućavaju deci mlađeg uzrasta da steknu osnovne veštine\nučenja jezika u što ranijem dobu. Kombinovanjem efektivnih tehnika podučavanja\ni zabavne atmosfere, škola Kraft pružiće vašoj deci samopouzdanje koje im je\npotrebno za korišćenje jezika u svakodnevnom životu.\nNa ovim časovima pratimo vaš program iz osnovne i srednje škole.\nNudimo podršku i  pojačanje koje vam treba kao npr. domaći zadaci, testovi\n\n",
+			"contents": "Opšti kurs Nemačkog za sve nivoe.\n\nZa osobe koje kreću od nule do onih koji žele da usavrše svoje znanje\njezika iz različitih razloga kao npr. posao, studije, turizam, druženje\nili jednostavno interesovanja.\n\nPoslovni Nemački\n\nKursevi poslovnog nemačkog posvećeni su firmama, radnicima, profesionalcima\ni ljudima koji traže posao kojima je potrebno usavršavanje nivoa znanja\nnemačkog jezika za potrebe posla.\n\nNemački za specifične potrebe\n\nCilj fokusiranih kurseva je da pomogne polaznicima da brzo steknu fond reči\ni fraza za primenu u različitim oblastima kao npr. medicina, turizam, ugostiteljstvo,\ntrgovina, pripreme za razgovor za posao.\n\nŠkola\n\nProgrami za osnovce omogućavaju deci mlađeg uzrasta da steknu osnovne veštine\nučenja jezika u što ranijem dobu. Kombinovanjem efektivnih tehnika podučavanja\ni zabavne atmosfere, škola Kraft pružiće vašoj deci samopouzdanje koje im je\npotrebno za korišćenje jezika u svakodnevnom životu.\nNa ovim časovima pratimo vaš program iz osnovne i srednje škole.\nNudimo podršku i  pojačanje koje vam treba kao npr. domaći zadaci, testovi\n\nUdžbenici Engleskog jezika se koriste zajedno sa autentičnim tekstovima da bi se stvorio dodatni kontekst jezika. Kombinacija radne sveske sa primerima iz stvarnog života proširuju znanje polaznika kursa.\n\n\nIndividualna nastava\n\nZa sve one koji žele da imaju intenzivnije tečajeve, brži tempo rada i\nfleksibilne termine, Centar Kraft preporučuje individualnu i polu individualnu nastavu.\n\nIndividualna nastava je odlična za osobe sa gustim rasporedom, jasno određenim ciljevima ili osobama koje najbolje uče jedan na jedan direktno sa predavačem.\n\nPoluindividualna nastava obuhvata kurs sa dva polaznika i pogodan je za poznanike\nkojima ne odgovara rad u grupi.",
 			"settings":
 			{
-				"buffer_size": 1072,
+				"buffer_size": 1741,
 				"line_ending": "Windows",
-				"name": "Opšti Nemački kurs je za sve nivoe."
+				"name": "Opšti kurs Nemačkog za sve nivoe."
 			}
 		}
 	],
@@ -537,14 +537,14 @@
 	],
 	"file_history":
 	[
-		"/D/webdev/skolakraft/slovenacki.html",
 		"/D/webdev/skolakraft/norveski.html",
-		"/D/webdev/skolakraft/engleski.html",
 		"/D/webdev/skolakraft/francuski.html",
-		"/D/webdev/skolakraft/italijanski.html",
-		"/D/webdev/skolakraft/nemacki.html",
-		"/D/webdev/skolakraft/ruski.html",
 		"/D/webdev/skolakraft/spanski.html",
+		"/D/webdev/skolakraft/ruski.html",
+		"/D/webdev/skolakraft/slovenacki.html",
+		"/D/webdev/skolakraft/italijanski.html",
+		"/D/webdev/skolakraft/engleski.html",
+		"/D/webdev/skolakraft/nemacki.html",
 		"/D/webdev/skolakraft/index.html",
 		"/D/webdev/skolakraft/css/main.css",
 		"/D/webdev/skolakraft/navbar.js",
@@ -712,15 +712,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10180,
+						"buffer_size": 11066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6261,
-								6261
+								8512,
+								8512
 							]
 						],
 						"settings":
@@ -730,8 +730,8 @@
 							"translate_tabs_to_spaces": false,
 							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 2736.0,
+						"translation.x": 171.0,
+						"translation.y": 3609.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -777,15 +777,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8050,
+						"buffer_size": 9297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3600,
-								3600
+								4890,
+								4890
 							]
 						],
 						"settings":
@@ -795,7 +795,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4069.0,
+						"translation.y": 4862.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -806,20 +806,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1072,
+						"buffer_size": 1741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								637,
-								637
+								644,
+								644
 							]
 						],
 						"settings":
 						{
-							"auto_name": "Opšti Nemački kurs je za sve nivoe.",
+							"auto_name": "Opšti kurs Nemačkog za sve nivoe.",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -860,7 +860,7 @@
 		"cols":
 		[
 			0.0,
-			0.651785714286,
+			0.617225809088,
 			1.0
 		],
 		"rows":

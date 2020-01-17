@@ -260,6 +260,38 @@
 	background-image: url(../jezici_slike/kurs_za_tinejdzere.jpg);
 }
 
+.tbo-odr-0 {
+	background-image: url(../jezici_slike/berlin.jpg);
+}
+
+.tbo-odr-1 {
+	background-image: url(../jezici_slike/london-underground.jpg);
+}
+
+.tbo-odr-2 {
+	background-image: url(../jezici_slike/arc-de-triomphe.jpg);
+}
+
+.tbo-odr-3 {
+	background-image: url(../jezici_slike/koloseum.jpg);
+}
+
+.tbo-odr-4 {
+	background-image: url(../jezici_slike/barcelona.jpg);
+}
+
+.tbo-odr-5 {
+	background-image: url(../jezici_slike/st-petersburg.jpg);
+}
+
+.tbo-odr-6 {
+	background-image: url(../jezici_slike/ljubljana.jpg);
+}
+
+.tbo-odr-7 {
+	background-image: url(../jezici_slike/oslo.jpg);
+}
+
 .tecaj-wrap-1 {
 	display: flex;
 	/*flex-direction: row;*/

@@ -463,7 +463,7 @@
 			"file": "nemacki.html",
 			"settings":
 			{
-				"buffer_size": 11066,
+				"buffer_size": 11064,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -486,10 +486,10 @@
 			}
 		},
 		{
-			"contents": "Opšti kurs Nemačkog za sve nivoe.\n\nZa osobe koje kreću od nule do onih koji žele da usavrše svoje znanje\njezika iz različitih razloga kao npr. posao, studije, turizam, druženje\nili jednostavno interesovanja.\n\nPoslovni Nemački\n\nKursevi poslovnog nemačkog posvećeni su firmama, radnicima, profesionalcima\ni ljudima koji traže posao kojima je potrebno usavršavanje nivoa znanja\nnemačkog jezika za potrebe posla.\n\nNemački za specifične potrebe\n\nCilj fokusiranih kurseva je da pomogne polaznicima da brzo steknu fond reči\ni fraza za primenu u različitim oblastima kao npr. medicina, turizam, ugostiteljstvo,\ntrgovina, pripreme za razgovor za posao.\n\nŠkola\n\nProgrami za osnovce omogućavaju deci mlađeg uzrasta da steknu osnovne veštine\nučenja jezika u što ranijem dobu. Kombinovanjem efektivnih tehnika podučavanja\ni zabavne atmosfere, škola Kraft pružiće vašoj deci samopouzdanje koje im je\npotrebno za korišćenje jezika u svakodnevnom životu.\nNa ovim časovima pratimo vaš program iz osnovne i srednje škole.\nNudimo podršku i  pojačanje koje vam treba kao npr. domaći zadaci, testovi\n\nUdžbenici Engleskog jezika se koriste zajedno sa autentičnim tekstovima da bi se stvorio dodatni kontekst jezika. Kombinacija radne sveske sa primerima iz stvarnog života proširuju znanje polaznika kursa.\n\n\nIndividualna nastava\n\nZa sve one koji žele da imaju intenzivnije tečajeve, brži tempo rada i\nfleksibilne termine, Centar Kraft preporučuje individualnu i polu individualnu nastavu.\n\nIndividualna nastava je odlična za osobe sa gustim rasporedom, jasno određenim ciljevima ili osobama koje najbolje uče jedan na jedan direktno sa predavačem.\n\nPoluindividualna nastava obuhvata kurs sa dva polaznika i pogodan je za poznanike\nkojima ne odgovara rad u grupi.",
+			"contents": "Opšti kurs Nemačkog za sve nivoe.\n\nZa osobe koje kreću od nule do onih koji žele da usavrše svoje znanje\njezika iz različitih razloga kao npr. posao, studije, turizam, druženje\nili jednostavno interesovanja.\n\nPoslovni Nemački\n\nKursevi poslovnog nemačkog posvećeni su firmama, radnicima, profesionalcima\ni ljudima koji traže posao kojima je potrebno usavršavanje nivoa znanja\nnemačkog jezika za potrebe posla.\n\nNemački za specifične potrebe\n\nCilj fokusiranih kurseva je da pomogne polaznicima da brzo steknu fond reči\ni fraza za primenu u različitim oblastima kao npr. medicina, turizam, ugostiteljstvo,\ntrgovina, pripreme za razgovor za posao.\n\nŠkola\n\nProgrami za osnovce omogućavaju deci mlađeg uzrasta da steknu osnovne veštine\nučenja jezika u što ranijem dobu. Kombinovanjem efektivnih tehnika podučavanja\ni zabavne atmosfere, škola Kraft pružiće vašoj deci samopouzdanje koje im je\npotrebno za korišćenje jezika u svakodnevnom životu.\nNa ovim časovima pratimo vaš program iz osnovne i srednje škole.\nNudimo podršku i  pojačanje koje vam treba kao npr. domaći zadaci, testovi\n\nUdžbenici Engleskog jezika se koriste zajedno sa autentičnim tekstovima da bi se stvorio dodatni kontekst jezika. Kombinacija radne sveske sa primerima iz stvarnog života proširuju znanje polaznika kursa.\n\n\nIndividualna nastava\n\nZa sve one koji žele da imaju intenzivnije tečajeve, brži tempo rada i\nfleksibilne termine, Centar Kraft preporučuje individualnu i polu individualnu nastavu.\n\nIndividualna nastava je odlična za osobe sa gustim rasporedom, jasno određenim ciljevima ili osobama koje najbolje uče jedan na jedan direktno sa predavačem.\n\nPoluindividualna nastava obuhvata kurs sa dva polaznika i pogodan je za poznanike\nkojima ne odgovara rad u grupi.\n",
 			"settings":
 			{
-				"buffer_size": 1741,
+				"buffer_size": 1742,
 				"line_ending": "Windows",
 				"name": "Opšti kurs Nemačkog za sve nivoe."
 			}
@@ -538,10 +538,10 @@
 	"file_history":
 	[
 		"/D/webdev/skolakraft/norveski.html",
-		"/D/webdev/skolakraft/francuski.html",
+		"/D/webdev/skolakraft/slovenacki.html",
 		"/D/webdev/skolakraft/spanski.html",
 		"/D/webdev/skolakraft/ruski.html",
-		"/D/webdev/skolakraft/slovenacki.html",
+		"/D/webdev/skolakraft/francuski.html",
 		"/D/webdev/skolakraft/italijanski.html",
 		"/D/webdev/skolakraft/engleski.html",
 		"/D/webdev/skolakraft/nemacki.html",
@@ -712,15 +712,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11066,
+						"buffer_size": 11064,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8512,
-								8512
+								8784,
+								8784
 							]
 						],
 						"settings":
@@ -728,13 +728,13 @@
 							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false,
-							"word_wrap": false
+							"word_wrap": true
 						},
-						"translation.x": 171.0,
-						"translation.y": 3609.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -762,7 +762,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -806,15 +806,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1741,
+						"buffer_size": 1742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								644,
-								644
+								1742,
+								1742
 							]
 						],
 						"settings":
@@ -826,7 +826,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -920,7 +920,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

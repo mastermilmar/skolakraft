@@ -228,7 +228,7 @@ nav {
 	align-content: center;*/
 	display: inline-flex;
 	align-content: center;
-	margin: 1em 0 1em 1em;
+	margin: 1em 0;
 	flex-direction: row;
 	/*flex-wrap: wrap;*/
 	/*margin-top: 1rem;
@@ -446,6 +446,11 @@ main article {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.link-target {
+	position: relative;
+	top: -100px;
 }
 
 /* Upis */
@@ -1122,6 +1127,11 @@ address > em {
 		font-size: 24px;
 	}
 
+	.link-target {
+		position: relative;
+		top: -80px;
+	}
+
 	.upis_naslov {
 		/* margin: 1.3rem; */
 		margin: 0;
@@ -1183,10 +1193,6 @@ address > em {
 		margin: 1.3rem;
 	}
 
-
-	
-
-	
 }
 
 /*@media only screen and (width: 800px) {

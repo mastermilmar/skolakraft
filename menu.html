@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Menu</title>
+	<style type="text/css" media="screen">
+	html {
+		box-sizing: border-box;
+		width: 100%;
+		/*height: 100%;*/
+	}
+
+	@font-face {
+		font-family: "Corbel";
+		src: url(./font/CORBEL.TTF);
+	}
+
+	@font-face {
+		font-family: "Palanquin Thin";
+		src: url(../font/Palanquin-Thin.ttf);
+	}
+
+
+	a {
+		text-decoration: none;
+		color: rgb(50, 50, 50);
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	a:hover {
+		color: #5498ab;
+		transition: color 0.2s ease-in-out;
+	}
+
+	a:active {
+		color: #5498ab;
+	}
+
+	body {
+		box-sizing: border-box;
+		margin: 0 auto;
+		width: 100%;
+		/*line-height: 2rem;*/
+		font-family: "Corbel";
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 100;
+		background-color: white;
+	}
+
+	body p {
+		font-family: 'Palanquin Thin', sans-serif;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 100;
+		line-height: 2rem;
+	}
+
+	header {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		/*background-color: rgba(255, 255, 255, 0.85);*/
+		background-color: white;
+	}
+
+	h3 {
+		font-family: "Roboto Slab";
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		font-family: 'Palanquin Thin', sans-serif;
+	}
+
+	strong {
+		font-style: normal;
+	}
+
+	.top {
+		/*width: 100%;*/
+		background-color: #fff;
+		display: flex;
+		flex-direction: row;
+		/*flex-column: auto 500px;*/
+		justify-content: space-between;
+		align-items: center;
+		background-color: rgba(255, 255, 255, 0.0);
+	}
+
+	.logo {
+		display: block;
+		width: 140px;
+		height: 80px;
+		margin: 0;
+		/*margin-top: 1rem;*/
+		/*background-image: url(./img/kraft_logo.svg);*/
+		/*background-image: url(../img/logo_1.png);*/
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.logo > img:nth-child(1) {
+		display: block;
+	}
+
+	.logo > img:nth-child(2) {
+		display: none;
+	}
+
+	.responsive_nav {
+		width: auto;
+	}
+
+	nav {
+		display: inline-flex;
+		align-content: center;
+		margin: 1em 0;
+		flex-direction: row;
+		transition: 0.4s;
+	}
+
+	nav li {
+		text-decoration: none;
+		list-style: none;
+		font-family: "Corbel", sans-serif;
+		font-size: 25px;
+		line-height: 80px;
+		display: inline-block;
+		padding: 0 20px;
+	}
+
+	nav li a {
+		display: inline-block;
+		text-align: left;
+		width: 100%;
+		height: 100%;
+	}
+
+	nav li:hover {
+		background-color: rgb(244, 247, 246);
+		transition: background-color 0.5s ease-in-out;
+	}
+
+	#menu_icon {
+		display: none;
+		text-align: right;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		font-family: "Corbel", sans-serif;
+		font-size: 48px;
+		line-height: 80px;
+	}
+
+	.btn {
+		width: 1em;
+		text-align: center;
+		margin: .8rem 1rem;
+	}
+
+	#menu_icon>a {
+		cursor: pointer;
+	}
+
+	#menu {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#menu-toggle-container {
+		display: none;
+	}
+
+	.flex {
+		display: flex;
+		flex-direction: row;
+		flex-flow: wrap;
+	}
+
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+
+	@media only screen and (max-width: 768px) {
+		.top {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.grid {
+			display: block;
+		}
+
+		#menu_icon {
+			display: block;
+			/*flex-direction: column;*/
+			/*flex-flow: column;*/
+			width: 100%;
+			line-height: 50px;
+			/*justify-content: center;*/
+			margin: 0;
+			padding: 0;
+		}
+
+		/*.btn {
+			width: 1em;
+			text-align: center;
+			margin: .8rem 1rem;
+		}
+*/
+		#closebtn {
+			display: none;
+		}
+
+		#openbtn {
+			display: inline-block;
+		}
+
+		.responsive_logo {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			width: 100%;
+
+		}
+
+		.logo {
+			display: block;
+			width: 80px;
+			height: 50px;
+			margin: 0 1.5rem;
+			/*margin-top: 1rem;*/
+			/*margin-left: 1rem;*/
+			/*content: "kraft";*/
+			/*background-image: url(./img/kraft_logo_mobile.svg);*/
+			/*background-image: url(../img/kraft-logo-text.png);*/
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			position: relative;
+		}
+
+		.logo > img:nth-child(1) {
+			display: none;
+		}
+
+		.logo > img:nth-child(2) {
+			display: block;
+			position: absolute;
+			bottom: 0;
+		}
+
+		.responsive_nav {
+			width: 100%;
+			height: 100%;
+			display: inline-flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: white;
+		}
+
+		nav {
+			width: 100%;
+			height: 100%;
+			margin: 0 !important;
+		}
+
+		#menu {
+			display: none;
+			flex-direction: column;
+			/*justify-content: center;*/
+			/*align-items: center;*/
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+
+		}
+
+		#menu>li {
+			/*font-variant: small-caps;*/
+			font-size: 30px;
+		}
+
+		#menu>li>a {
+			text-align: center;
+		}
+
+	}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="top container">
+			<div class="responsive_logo">
+				<span>
+					<a id="logo" class="logo" href="./" title="kraft">
+						<img src="./img/kraft_logo.svg" alt="kraft">
+						<img src="./img/kraft_logo_mobile.svg" alt="kraft">
+					</a>
+				</span>
+				<span id="menu_icon">
+					<a href="javascript:void(0)" id="openbtn" class="btn" onclick="openNav()">&#8801;</a>
+					<a href="javascript:void(0)" id="closebtn" class="btn" onclick="closeNav()">&times;</a>
+				</span>
+			</div>
+			<div class="responsive_nav">
+				<nav id="nav">
+					<!-- <span id="menu-toggle-container">
+								<input type="checkbox" id="menu-toggle"/>
+								<label for="menu-toggle">Meni</label>
+						</span> -->
+					<ul id="menu">
+						<li><a href="./#upis" title="" onclick="closeNav()">Upis</a></li>
+						<li><a href="./#jezici" title="" onclick="closeNav()">Jezici</a></li>
+						<li><a href="./#o_skoli" title="" onclick="closeNav()">O Školi</a></li>
+						<li><a href="./#kontakt" title="" onclick="closeNav()">Kontakt</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main style="display: block; width: 1200px; height: 1200px; margin: 0 auto; background-color: #7cbfb8;">
+	</main>
+	<script>
+	function openNav() {
+		document.getElementById("menu").style.display = "flex";
+		document.getElementById("openbtn").style.display = "none";
+		document.getElementById("closebtn").style.display = "inline-block";
+	}
+
+	function closeNav() {
+		document.getElementById("menu").style.display = "";
+		document.getElementById("closebtn").style.display = "none";
+		document.getElementById("openbtn").style.display = "inline-block";
+	}
+
+	window.onscroll = function() { scrollFunction() };
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+			document.getElementById("nav").style.margin = "0em";
+			//document.getElementById("menu_icon").style.line-height = "50px";
+		} else {
+			document.getElementById("nav").style.margin = "1em 0";
+			//document.getElementById("menu_icon").style.line-height = "48px";
+		}
+	}
+	</script>
+</body>
+
+</html>

@@ -493,10 +493,10 @@
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "css/jezici.css",
 			"settings":
 			{
-				"buffer_size": 11804,
+				"buffer_size": 9301,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -728,7 +728,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -757,36 +757,36 @@
 						"translation.y": 5796.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": true,
+					"file": "css/jezici.css",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11804,
+						"buffer_size": 9301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								531,
-								531
+								5945,
+								5945
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4545.0,
+						"translation.y": 5652.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -815,7 +815,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -843,7 +843,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

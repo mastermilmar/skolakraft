@@ -210,6 +210,7 @@ strong {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
+	transition: 0.4s;
 }
 
 .responsive_nav {
@@ -235,7 +236,7 @@ nav {
 	margin-bottom: 1rem;*/
 	/*backdrop-filter: saturate(180%) blur(20px);*/
 	/*background-color: rgba(255,255,255,0.72);*/
-	transition: 0.4s;
+	/*transition: 0.4s;*/
 }
 
 nav li {

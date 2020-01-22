@@ -65,8 +65,10 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		/*background-color: rgba(255, 255, 255, 0.85);*/
-		background-color: white;
+		background-color: rgba(255, 255, 255, 0.5);
+		/*background-color: white;*/
+		transition: background-color 0.4s;
+		
 	}
 
 	h3 {
@@ -352,9 +354,11 @@
 	function scrollFunction() {
 		if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 			document.getElementById("nav").style.margin = "0em";
+			document.getElementById("header").style["background-color"] = "";
 			//document.getElementById("menu_icon").style.line-height = "50px";
 		} else {
 			document.getElementById("nav").style.margin = "1em 0";
+			document.getElementById("header").style["background-color"] = "#fff";
 			//document.getElementById("menu_icon").style.line-height = "48px";
 		}
 	}

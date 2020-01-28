@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1"
+	id="svg4874"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	
+	
+	viewBox="0 0 60 60"
+	width="60"
+	height="60"
+	enable-background="new 0 0 60 60"
+	xml:space="preserve"
+	>
+	<g id="facebook" transform="translate(0,-281.12499)">
+		<path id="Oval" d="M-245,648.1c-16.5,0-30,13.4-30,30s13.4,30,30,30s30-13.4,30-30S-228.5,648.1-245,648.1z M-245,650.8
+			c15.1,0,27.4,12.2,27.4,27.4s-12.2,27.4-27.4,27.4c-15.2,0-27.4-12.2-27.4-27.4S-260.1,650.8-245,650.8z"/>
+		<path id="Shape" d="M-243.3,695.1h-6.4v-15h-3.1v-5.2h3.1v-3.1c0-4.2,1.8-6.8,6.9-6.8h4.3v5.2h-2.6c-2,0-2.1,0.8-2.1,2.1v2.6h4.7
+				l-0.5,5.2h-4.3L-243.3,695.1L-243.3,695.1z"/>
+	</g>
+</svg>

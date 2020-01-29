@@ -247,7 +247,7 @@ nav li {
 	line-height: 80px;
 	display: inline-block;
 	padding: 0 20px;
-
+	transition: 0.4s;
 }
 
 nav li a {
@@ -259,7 +259,8 @@ nav li a {
 
 nav li:hover {
 	background-color: rgb(244, 247, 246);
-	transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.4s ease-in-out;
+
 }
 
 #menu_icon {
@@ -948,8 +949,8 @@ address > em {
 }
 
 .social_links a {
-	
 	margin: 2em 1rem;
+	transition: 0.4s;
 }
 
 .social_links img {
@@ -957,12 +958,13 @@ address > em {
 	width: 60px;
 	height: 60px;
 }
-/**/
+
 .social_links a:hover {
 	transform: scale(0.8);
-
+	transition: 0.4s;
 }
 
+/*  */
 .footer section::after {
 	content: "Pratite nas na društvenim mrežama";
 	display: none;

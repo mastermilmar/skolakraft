@@ -352,7 +352,7 @@ nav li:hover {
 	background-repeat: no-repeat;
 	/*background-origin: content-box;*/
 
-	background-image: url(../img/baner_kraft_new.svg);
+	background-image: url(../img/kraft_baner.svg);
 	/*background-size: 1200px;*/
 	/*background-position: bottom;*/
 
@@ -903,7 +903,7 @@ address > em {
 
 .kontakt_info > address > img {
 	display: block;
-	margin: .5em auto;
+	margin: .6em auto 0 auto;
 	height: 60px;
 	width: 60px;
 }

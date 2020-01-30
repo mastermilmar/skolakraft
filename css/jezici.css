@@ -501,6 +501,10 @@
 	color: white;
 }
 
+.jezici-link>div>ul>li>a:hover {
+	color: #dae8eb;
+}
+
 @media only screen and (max-width: 768px) {
 
 	.jezik-naslov {

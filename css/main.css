@@ -9,6 +9,16 @@ html {
 ::before, ::after {
 	box-sizing: border-box;
 }
+/*
+::selection {
+	background-color: #f4f7f6;
+	color: #5498ab;
+}
+*/
+::selection {
+	background-color: rgba(255, 255, 0, .5);
+	color: rgb(112, 66, 20);
+}
 
 /* Fonts */
 
@@ -150,9 +160,9 @@ header {
 	/*width: 100%;*/
 	width: 100%;
 	/*max-width: 1200px;*/
-	/*background-color: rgba(255, 255, 255, 0.85);*/
-	background-color: white;
-
+	background-color: rgba(255, 255, 255, 0.85);
+	/*background-color: white;*/
+	backdrop-filter: saturate(100%) blur(10px);
 }
 
 h3 {
@@ -547,6 +557,13 @@ main article {
 	border-color: white;
 	border-width: 2px;
 */
+
+	transition: 0.4s;
+}
+
+.flags:hover {
+	transition: 0.4s;
+	transform: scale(1.2);
 }
 
 .flags > a {
@@ -554,6 +571,7 @@ main article {
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
+	
 }
 
 
@@ -573,6 +591,7 @@ main article {
 	height: 100%;
 
 	-webkit-border-radius: 75px;
+	
 }
 
 .flags > a:hover .jezik_naziv {
@@ -1069,7 +1088,7 @@ address > em {
 		display: inline-flex;
 		flex-direction: column;
 		justify-content: center;
-		background-color: white;
+		/*background-color: white;*/
 	}
 
 	nav {

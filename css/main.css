@@ -616,14 +616,14 @@ main article {
 
 #nemacki {
 	background-image: url(../flags/germany-flag-square-xs.png);
-	background-image: url(../flags/germany-flag-round_inkscape.svg);
+	background-image: url(../flags/germany-flag-round.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }	
 
 #engleski {
 	background-image: url(../flags/united-kingdom-flag-square-xs.png);
-	background-image: url(../flags/united-kingdom-flag-round_inkscape.svg);
+	background-image: url(../flags/united-kingdom-flag-round.svg);
 	/*background-image: url(../flags/united-kingdom-flag-round-xs.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -631,7 +631,7 @@ main article {
 
 #francuski {
 	background-image: url(../flags/france-flag-square-xs.png);
-	background-image: url(../flags/france-flag-round_inkscape.svg);
+	background-image: url(../flags/france-flag-round.svg);
 	/*background-image: url(../flags/france-flag-round-xs.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -639,7 +639,7 @@ main article {
 
 #italijanski {
 	background-image: url(../flags/italy-flag-square-xs.png);
-	background-image: url(../flags/italy-flag-round_inkscape.svg);
+	background-image: url(../flags/italy-flag-round.svg);
 	/*background-image: url(../flags/italy-flag-round-xs.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -647,7 +647,7 @@ main article {
 
 #spanski {
 	background-image: url(../flags/spain-flag-square-xs.png);
-	background-image: url(../flags/spain-flag-round_inkscape.svg);
+	background-image: url(../flags/spain-flag-round.svg);
 	/*background-image: url(../flags/spain-flag-round-xs.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -655,7 +655,7 @@ main article {
 
 #ruski {
 	background-image: url(../flags/russia-flag-square-xs.png);
-	background-image: url(../flags/russia-flag-round_inkscape.svg);
+	background-image: url(../flags/russia-flag-round.svg);
 	/*background-image: url(../flags/russia-flag-round-xs.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -663,7 +663,7 @@ main article {
 
 #slovenacki {
 	background-image: url(../flags/slovenia-flag-square-xs.png);
-	background-image: url(../flags/slovenia-flag-round_inkscape.svg);
+	background-image: url(../flags/slovenia-flag-round.svg);
 	/*background-image: url(../flags/slovenia-flag-round_300.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -671,7 +671,7 @@ main article {
 
 #norveski {
 	background-image: url(../flags/norway-flag-square-xs.png);
-	background-image: url(../flags/norway-flag-round_inkscape.svg);
+	background-image: url(../flags/norway-flag-round.svg);
 	/*background-image: url(../flags/norway-flag-round-xs.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;

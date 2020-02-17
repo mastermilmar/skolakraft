@@ -1,0 +1,698 @@
+/***      CSS      ***/
+/*** code snippets ***/
+
+.resposive_logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+
+}
+
+.responsive_nav {
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: red;
+}
+
+/*.top > span:first-child {
+	flex-grow: 2;
+}*/
+
+/* Navigation menu */
+
+nav {
+	/*display: grid;
+	grid-auto-flow: column;
+	align-content: center;*/
+	display: inline-flex;
+	align-content: center;
+	margin: 1em;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	/*margin-top: 1rem;
+	margin-bottom: 1rem;*/
+
+}
+
+#meni {
+	display: none;
+	text-align: right;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: "Corbel Regular", sans-serif;
+	font-size: 30px;
+	line-height: 80px;
+}
+
+#menu {
+	display: flex;
+	flex-direction: column;
+}
+
+#menu-toggle-container {
+	display: none;
+}
+
+
+/* Not rensosive */
+
+#menu {
+	/* flex-direction: column; */
+	flex-direction: row;
+}
+
+nav {
+	/* align-content: center; */
+	align-content: end;
+}
+
+.responsive_nav {
+	/* width: 100%; */
+}
+
+
+/* --- */
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.subheader {
+	/* flex-flow: row; */
+	/* justify-content: space-between; */
+	/* align-items: flex-start; */
+	/* height: 100vh; */
+	flex-flow: column;
+}
+
+.background_image {
+	/* margin-top: 200px; */
+	margin-top: 120px;
+}
+
+.subheader>h1 {
+	/* margin-top: 0; */
+	margin: 0 auto 1.5rem 1.3rem;
+}
+
+.srednji_tekst {
+	/* margin-top: 0; */
+	margin: 0 1.3rem 1.5rem 1.3rem;
+}
+
+.subheader>span {
+	margin: auto 1.3rem;
+}
+
+.jezici_naslov {
+	/* margin: 1.3rem; */
+	margin: 1.3rem auto;
+}
+
+.kursevi>span {
+	/* margin: 1.3rem; */
+	/* justify-content: center; */
+	/* align-content: center; */
+	margin: 1.3rem auto;
+	width: 100%;
+	display: inline-block;
+}
+
+.kursevi>span>h2 {
+	/* margin: 1.3rem; */
+	/* align-self: center; */
+	margin: 1.3rem auto;
+	width: inherit;
+	align-content: ;
+	text-align: center;
+}
+
+.Naslovi {
+	/* margin-left: 5%; */
+	/* margin-top: auto; */
+	/* margin-bottom: auto; */
+}
+
+.skola>article {
+	/* margin: 1.3rem; */
+	margin: 1.3rem 0;
+	padding: 1.5rem 0;
+}
+
+.skola>article>p {
+	/* margin: 0 5rem 2rem 5rem; */
+	margin: 0 1.3rem 3rem 1.3rem;
+}
+
+.kontakt_info>address {
+	margin: 1.3rem;
+}
+
+/* */
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+@media only screen and (max-width: 768px) {
+	.logo {
+		/* width: 140px; */
+		width: 80px;
+		margin-left: 1rem;
+	}
+}
+
+.skola article h2 {
+	/* margin-left: 2rem; */
+	margin-left: 1.3rem;
+}
+
+.subheader>span {
+	/* font-family: "Roboto Slab Thin"; */
+	font-family: "Corbel Regular", sans-serif;
+}
+
+/* */
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+#menu_icon>a {
+	display: inline-block;
+	width: 1em;
+	text-align: center;
+	margin: 1rem;
+}
+
+/* */
+
+/* kraft_1.css | http://localhost:8000/css/kraft_1.css */
+
+.Naslovi {
+	/* display: inline-block; */
+}
+
+.kursevi>span>h2 {
+	/* background-color: #f5f7f6; */
+	/* margin: 1.3rem; */
+	/* align-self: center; */
+	margin: auto 0;
+	height: 100%;
+}
+
+.kursevi>span {
+	/* justify-content: center; */
+	/* align-content: center; */
+}
+
+@media only screen and (max-width: 768px) {
+	.jezici_naslov {
+		/* margin: 1.3rem auto; */
+		margin: 0;
+		padding: 1rem 0;
+	}
+
+	.kursevi>span>h2 {
+		/* margin: 1.3rem auto; */
+		/* width: inherit; */
+		/* align-content: ; */
+		width: 100%;
+	}
+
+	.kursevi>span {
+		padding: 1rem 0;
+	}
+}
+
+.upis_naslov {
+	/* margin: 1.3rem; */
+	margin: 0;
+	padding: 1rem 0;
+}
+
+
+/*
+
+function() {
+  $("#main-nav").toggleClass("open"), $("#mobile-actions").toggleClass("nav-is-open")
+}
+
+*/
+
+
+@font-face {
+	font-family: 'Cantarell';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Cantarell Regular'), local('Cantarell-Regular'), url(https://fonts.gstatic.com/s/cantarell/v9/B50NF7ZDq37KMUvlO015jKJr.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+////***    ***////
+
+
+/* kraft_1.css | http://localhost:8080/css/kraft_1.css */
+
+nav {
+	/* display: flex; */
+	/* flex-direction: column; */
+	flex-direction: ;
+	position: absolute;
+	background-color: white;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Element | http://localhost:8080/kraft_1.html */
+
+#menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.top {
+	align-items: center;
+}
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+#meni {
+	/* text-align: center; */
+	text-align: right;
+}
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.top>span {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.top>span:nth-child(2) {
+	/* justify-content: flex-end; */
+	justify-content: center;
+}
+
+/* ---- */
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+@media only screen and (max-width: 768px) {
+	nav {
+		/* display: block; */
+		/* position: relative; */
+	}
+}
+
+.responsive_nav {
+	/* display: inline-flex; */
+	/* flex-direction: column; */
+	/* justify-content: center; */
+	width: 100%;
+	height: 100%;
+}
+
+/* Element | file:///D:/webdev/skolakraft/kraft_1.html# */
+
+#menu {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Element | file:///D:/webdev/skolakraft/kraft_1.html# */
+
+.responsive_logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+/*   ----   */
+
+/* kraft_1.css | http://localhost:8080/css/kraft_1.css */
+
+.lista_jezika {
+	/* align-content: center; */
+	align-content: space-evenly;
+	align-content: space-evenly;
+}
+
+.flags {
+	margin: 1em auto;
+}
+
+grid-template-columns: 12px 12px 12px;
+grid-template-rows: 12px 12px 12px;
+
+
+/* kraft_1.css | http://localhost:8080/css/kraft_1.css */
+
+.kontakt_info>address {
+	justify-content: space-around;
+}
+
+/* Element | http://localhost:8080/kraft_1.html */
+
+.kontakt_info>address:nth-child(1)>p:nth-child(3) {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Element | http://localhost:8080/kraft_1.html */
+
+.kontakt_info>address:nth-child(1)>h3:nth-child(1) {
+	margin-bottom: 0px;
+	margin-top: 3em;
+}
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.kontakt_info>address {
+	justify-content: center;
+}
+
+/* --- */
+
+
+/* Element | file:///D:/webdev/skolakraft/kraft_1.html */
+
+.skola>article:nth-child(1) {
+	height: 640px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Element | file:///D:/webdev/skolakraft/kraft_1.html */
+
+.skola>article:nth-child(3)>img:nth-child(1) {
+	width: 150px;
+	margin-top: 5rem;
+}
+
+/* Element | file:///D:/webdev/skolakraft/kraft_1.html */
+
+.skola>article:nth-child(3)>p:nth-child(2) {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+/* Element | file:///D:/webdev/skolakraft/kraft_1.html */
+
+.skola>article:nth-child(1)>h2:nth-child(1) {
+	/* margin-bottom: 0px; */
+	margin-bottom: .1em;
+	height: 64px;
+}
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.srednji_tekst {
+	/* max-width: 400px; */
+	max-width: 480px;
+}
+
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.skola>article:first-child {
+	min-height: 600px;
+}
+
+ul {
+	font-family: 'Palanquin Thin', sans-serif;
+}
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.kontakt_info strong {
+	display: inline-block;
+	height: 1em;
+}
+
+address {
+	font-family: Corbel;
+}
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.skola>article>img {
+	/* width: 150px; */
+	width: 120px;
+}
+
+
+/* */
+
+
+background: #1c92d2;
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f2fcfe, #1c92d2);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+
+background-image: linear-gradient(135deg, #FFDB01 10%, #0E197D 100%);
+
+#53a495 #ff4422
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+	var x=document.getElementById("myTopnav");
+
+	if (x.className==="topnav") {
+		x.className+=" responsive";
+	}
+
+	else {
+		x.className="topnav";
+	}
+}
+
+/* *** */
+
+
+.subheader>h1 {
+	font-size: 72px;
+	font-family: "Roboto Slab Light";
+	margin-top: 0;
+	line-height: 72px;
+	max-width: 300px;
+}
+
+.srednji_tekst {
+	line-height: 36px;
+	font-size: 24px;
+	font-family: "Roboto Slab Thin";
+	max-width: 480px;
+	margin-top: 0;
+
+	/*margin-left: 8.3%;
+	align-self: center;*/
+}
+
+.subheader>span {
+	line-height: 40px;
+	font-size: 28px;
+	font-family: "Corbel Regular", sans-serif;
+}
+
+.subheader>span>p {
+	margin: 0;
+	/*text-decoration: underline;*/
+	font-family: "Corbel Light", sans-serif;
+}
+
+.subheader>span>a {
+	text-decoration: underline;
+}
+
+/* */
+
+
+/* kraft_1.css | file:///D:/webdev/skolakraft/css/kraft_1.css */
+
+.subheader {
+	/* height: 100vh; */
+	height: 100%;
+	min-height: 800px;
+}
+
+/* kraft_1.css | http://localhost:8000/css/kraft_1.css */
+
+.upis_tekst>article>img {
+	/* margin: 2em auto; */
+	margin: 1rem auto;
+}
+
++++
+
+/* main.css | file:///D:/webdev/skolakraft/css/main.css */
+
+.background_image {
+  /* margin-top: 200px; */
+  padding-top: 200px;
+}
+
+
+/* main.css | file:///D:/webdev/skolakraft/css/main.css */
+
+@media only screen and (max-width: 768px) {
+  .background_image {
+    /* margin-top: 120px; */
+    padding-top: 120px;
+  }
+}
+
+.subheader {
+  /* min-height: 800px; */
+}
+
+.background_image {
+  /* height: 100%; */
+  height: 100vh;
+}
+
+
+/* main.css | file:///D:/webdev/skolakraft/css/main.css */
+
+.background_image {
+  /* height: 100%; */
+  /* margin-top: 200px; */
+  height: 100vh;
+}
+
+.subheader {
+  /* height: 100%; */
+  /* min-height: 800px; */
+  padding-top: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  .background_image {
+    /* margin-top: 120px; */
+  }
+  .subheader > span {
+    /* margin: auto 1.3rem; */
+    margin: 2rem 1.3rem;
+  }
+}
+
+
+
+
+	/*#menu-toggle-container {
+		display: block;
+	}*/
+
+	/*nav {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+		
+	}*/
+
+	/*nav > span:nth-child(2) {
+		justify-content: center;
+	}*/
+
+	
+	/* #meni {
+		display: inline-block;
+		width: 100%;
+		/*overflow: visible;*/
+	/*} */ 
+
+	/*#menu {
+		display: none;
+	}*/
+
+	/* menu label */
+
+	/*label {
+		cursor: pointer;
+	}*/
+
+	/*#menu-toggle {
+		display: inline-block;
+		right: 0;
+	}
+	*/
+	
+/*	input[type=checkbox]:checked #menu {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-content: space-around;
+		align-items: center;
+		
+		top: 100px;
+		background-color: white;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+	}
+*/
+	 
+
+	/*#menu-toggle:checked #menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-content: space-around;
+		align-items: center;
+		position: absolute;
+		top: 100px;
+		background-color: white;
+		width: 100vw;
+		height: 100vh;
+	}*/
+
+	/*#menu-toggle:checked nav {
+		display: block;
+		position: absolute;
+		background-color: white;
+		width: 100vw;
+		height: 100vh;
+	}*/
+
+	/*.flex {
+		display: flex;
+		flex-direction: column;
+	}*/
+
+	/*.grid {
+		display: grid;
+		grid-template-rows: auto 100%;
+		grid-auto-flow: row;
+	}*/

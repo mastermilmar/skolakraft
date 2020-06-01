@@ -9,14 +9,20 @@ function closeNav() {
 	document.getElementById("closebtn").style.display = "none";
 	document.getElementById("openbtn").style.display = "inline-block";
 }
+
 window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
+
+	let navbar = document.getElementById("nav");
+	let logo = document.getElementById("logo");
+
 	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-		document.getElementById("nav").style.margin = "0em";
-		document.getElementById("logo").style["margin-top"] = "0";
-	} else {
-		document.getElementById("nav").style.margin = "1em 0";
-		document.getElementById("logo").style["margin-top"] = "1.5rem";
+		nav.className = 'nav_compact';
+		logo.className = 'logo logo_bgi_m logo_bgi_2';
+		}
+	else {
+		nav.className = '';
+		logo.className = 'logo logo_bgi_m logo_bgi_1';
 	}
 }

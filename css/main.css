@@ -72,7 +72,6 @@ html {
 /*@import url('https://fonts.googleapis.com/css?family=Palanquin:100&display=swap&subset=latin-ext');*/
 
 
-
 @font-face {
 	font-family: "Palanquin Thin";
 	src: url(../font/Palanquin-Thin.ttf);
@@ -160,7 +159,7 @@ header {
 	/*width: 100%;*/
 	width: 100%;
 	/*max-width: 1200px;*/
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255, 255, 255, 0.9);
 	/*background-color: white;*/
 	backdrop-filter: saturate(100%) blur(10px);
 }
@@ -214,14 +213,41 @@ strong {
 	width: 140px;
 	height: 80px;
 	margin: 0;
-	margin-top: 1rem;
-	background-image: url(../img/kraft_logo.svg);
+	/*margin-top: 1rem;*/
+	/*background-image: url(../img/kraft_logo.svg);*/
 	/*background-image: url(../img/logo_1.png);*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	transition: 0.4s;
 }
+
+.logo_bgi_1 {
+	background-image: url(../img/kraft_logo.svg);
+	margin-top: 1.5rem;
+	/*transition: 0.4s;*/
+}
+
+.logo_bgi_2 {
+	background-image: url(../img/kraft_logo_light.svg);
+	margin: 0;
+	/*transition: 0.4s;*/
+}
+
+.logo_scroll {
+	display: block;
+	width: 140px;
+	height: 80px;
+	margin: 0;
+	/*margin-top: 1rem;*/
+	/*background-image: url(../img/kraft_logo_light-1.svg);*/
+	/*background-image: url(../img/logo_1.png);*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: 0.4s;
+}
+
 
 .responsive_nav {
 	width: auto;
@@ -246,7 +272,11 @@ nav {
 	margin-bottom: 1rem;*/
 	/*backdrop-filter: saturate(180%) blur(20px);*/
 	/*background-color: rgba(255,255,255,0.72);*/
-	/*transition: 0.4s;*/
+	transition: 0.4s;
+}
+
+.nav_compact {
+	margin: 0;
 }
 
 nav li {
@@ -899,6 +929,7 @@ address > em {
 	width: 50%;
 	display: inline-block;
 	font-size: initial;
+	font-weight: 400;
 }
 
 .kontakt_info > address > img {
@@ -1059,7 +1090,7 @@ address > em {
 		
 	}
 
-	.logo {
+	._logo .logo_scroll {
 		display: block;
 		width: 80px;
 		height: 50px;
@@ -1067,8 +1098,24 @@ address > em {
 		/*margin-top: 1rem;
 		margin-left: 1rem;*/
 		/*content: "kraft";*/
-		background-image: url(../img/kraft_logo_mobile.svg);
+		/*background-image: url(../img/kraft_logo_mobile.svg);*/
 		/*background-image: url(../img/kraft-logo-text.png);*/
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.logo_bgi_1 .logo_bgi_2 {
+		display: none;
+	}
+
+	.logo_bgi_m {
+		background-image: url(../img/kraft_logo_mobile_0.svg);
+		/*display: block;*/
+		width: 80px;
+		height: 50px;
+		margin: 0 1.5rem; /* !important */
+		
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;

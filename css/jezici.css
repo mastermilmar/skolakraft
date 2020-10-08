@@ -27,12 +27,20 @@
 .jezik-naslov > div > h1 {
 	font-size: 60px;
 	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	margin: 0 0 .1em 0;
 }
 
 .jezik-naslov>div:nth-child(1)>p:nth-child(2) {
 	margin: 0;
-	font-family: roboto slab light;
+	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 }
 
 .jezik-naslov > div:nth-child(2) > img:nth-child(1) {
@@ -128,6 +136,10 @@
 
 .tecajevi-naslov {
 	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	font-size: 60px;
 	margin: 2em .8em;
 }
@@ -191,7 +203,12 @@
 }
 
 .tecaj-box > div > h4 {
-	font-family: 'Roboto Slab Light', sans-serif;
+	/*font-family: 'Roboto Slab Light', sans-serif;*/
+	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	font-size: 36px;
 	margin: 0;
 }

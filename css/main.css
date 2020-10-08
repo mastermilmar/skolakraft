@@ -24,15 +24,22 @@ html {
 
 /*@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');*/
 
+/* Corbel */
+
 @font-face {
 	font-family: "Corbel";
-	src: url(../font/Corbel.ttf);
+	src: url(../font/Corbel.ttf) format('truetype');
 }
 
 /*@font-face {
 	font-family: "Corbel Light";
 	src: url(../font/CORBEL.TTF);
 }*/
+
+/* Roboto */
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500&display=swap');*/
+
 
 @font-face {
 	font-family: "Roboto Slab";
@@ -48,6 +55,8 @@ html {
 	font-family: "Roboto Slab Thin";
 	src: url(../font/RobotoSlab-Thin.ttf);
 }
+
+/* Lato */
 
 @font-face {
 	font-family: "Lato Light";
@@ -72,11 +81,16 @@ html {
 /*@import url('https://fonts.googleapis.com/css?family=Palanquin:100&display=swap&subset=latin-ext');*/
 
 
+/* Palanquin */
+
 @font-face {
 	font-family: "Palanquin Thin";
 	src: url(../font/Palanquin-Thin.ttf);
 }
 
+/* Raleway */
+/* unused */
+/*
 @font-face {
 	font-family: "Raleway Regular";
 	src: url(../font/Raleway-Regular.ttf);
@@ -91,6 +105,7 @@ html {
 	font-family: "Raleway Light";
 	src: url(../font/Raleway-Light.ttf);
 }
+*/
 
 /*@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap&subset=latin-ext');*/
 
@@ -165,7 +180,9 @@ header {
 }
 
 h3 {
-	font-family: "Roboto Slab";
+	/*font-family: "Roboto Slab Regular";*/
+	font-family: "Roboto Slab", serif;
+	/*font-weight: 400;*/
 }
 
 ul {
@@ -414,6 +431,10 @@ nav li:hover {
 .subheader > h1 {
 	font-size: 80px;
 	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	margin-top: 0;
 	line-height: 80px;
 	max-width: 300px;
@@ -423,6 +444,10 @@ nav li:hover {
 	line-height: 36px;
 	font-size: 28px;
 	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	max-width: 480px;
 	margin-top: 0;
 
@@ -517,6 +542,10 @@ main article {
 	margin-top: auto;
 	margin-bottom: auto;
 	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	font-size: 60px;
 }
 
@@ -756,7 +785,7 @@ main article {
 }
 
 .skola > article:first-child {
-	background: linear-gradient(to bottom, rgba(84,152,171,1) 60%, rgba(84,152,171,0)), url(../img/stock-photo-2.png);
+	background: linear-gradient(to bottom, rgba(84,152,171,1) 60%, rgba(84,152,171,0)), url(../img/stock-photo-3.png);
 	
 	background-size: contain;
 	background-position: bottom;
@@ -799,6 +828,10 @@ main article {
 	display: inline-block;
 	margin: 2rem 5rem;
 	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	font-size: 60px;
 }
 
@@ -880,6 +913,10 @@ main article {
 	padding: 1em 0;
 	background-color: #5498ab;
 	font-family: "Roboto Slab Light";
+	/*
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	*/
 	font-size: 60px;
 
 }
